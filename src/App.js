@@ -1,12 +1,11 @@
-import logo from './logo.svg'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import About from './components/About'
 import Home from './components/Home'
-import SinglePost from './components/SinglePost'
+import NavBar from './components/NavBar'
 import Post from './components/Post'
 import Project from './components/Project'
-import NavBar from './components/NavBar'
+import SinglePost from './components/SinglePost'
 
 function App() {
   return (
