@@ -4,7 +4,25 @@
 
 body {
   font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
   transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
@@ -96,10 +114,40 @@ img {
   }
 }
 
+.intro {
+  text-align: center;
+
+  .img-holder {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 50px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+}
+
 .footer {
   .container {
     padding-top: 30px;
     padding-bottom: 50px;
     border-top: 1px solid rgba($gray, 1);
+  }
+}
+
+.post-meta {
+  margin-bottom: 50px;
+
+  .img-author {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  .name {
+    font-size: 14px;
   }
 }

@@ -32,8 +32,7 @@ const Post = () => {
         <Loader />
       ) : (
         <Container>
-          <h1>Blog Post Page</h1>
-          <h2>Welcome to my page of blog posts</h2>
+          <h1 className='mb-4'>Blog</h1>
           <div>
             {postData &&
               postData.map((post, index) => (

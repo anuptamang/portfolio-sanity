@@ -43,18 +43,17 @@ const SinglePost = () => {
         <Loader />
       ) : (
         <Container>
-          <article>
-            <header>
-              <div></div>
-            </header>
-            <div>
-              <img
-                src={urlFor(singlePost.authorImage).url()}
-                width={50}
-                height={50}
-                alt={singlePost.name}
-              />
-            </div>
+          <h1 className='mb-4'>{singlePost.title}</h1>
+          <article className='d-flex align-items-center post-meta'>
+            <div
+              className='img-author'
+              style={{
+                'background-image': `url(
+                  ${urlFor(singlePost.authorImage).url()}
+                )`,
+              }}
+            ></div>
+            <div className='name'>{singlePost.name}</div>
           </article>
           <BlockContent
             blocks={singlePost.body}

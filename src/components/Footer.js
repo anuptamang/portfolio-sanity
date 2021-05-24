@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer className='footer text-center'>
       <Container>
         <p>
-          Built with ♡ by <em>Anup K. Tamang</em>
+          Built with ♡ by <NavLink to='/about'>Anup K. Tamang</NavLink>
         </p>
         <p>
           Created with &nbsp;
