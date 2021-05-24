@@ -14,10 +14,10 @@ function App() {
       <ScrollToTop>
         <Header />
         <main>
-          <Route component={About} path='/about' />
-          <Route component={SinglePost} path='/post/:slug' />
-          <Route component={Post} path='/post' />
-          <Route component={Project} path='/project' />
+          <Route component={About} path='/about' exact />
+          <Route component={Project} path='/project' exact />
+          <Route component={Post} path='/post' exact />
+          <Route component={SinglePost} path='/post/:slug' exact />
           <Route component={Home} path='/' exact />
         </main>
         <Footer />
