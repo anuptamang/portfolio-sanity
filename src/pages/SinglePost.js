@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 import imageUrlBuilder from '@sanity/image-url'
 import sanityClient from '../client'
 import BlockContent from '@sanity/block-content-to-react'
+import { Container } from 'react-bootstrap'
+import Loader from '../components/Loader'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -12,8 +14,6 @@ function urlFor(source) {
 const SinglePost = () => {
   const [singlePost, setSinglePost] = useState(null)
   const { slug } = useParams()
-
-  console.log(slug)
 
   useEffect(() => {
     sanityClient
@@ -37,33 +37,33 @@ const SinglePost = () => {
       .catch(console.error)
   }, [slug])
 
-  console.log(singlePost)
-
-  if (!singlePost) {
-    return <div>Loading...</div>
-  }
-
   return (
-    <main>
-      <article>
-        <header>
-          <div></div>
-        </header>
-        <div>
-          <img
-            src={urlFor(singlePost.authorImage).url()}
-            width={50}
-            height={50}
-            alt={singlePost.name}
+    <>
+      {!singlePost ? (
+        <Loader />
+      ) : (
+        <Container>
+          <article>
+            <header>
+              <div></div>
+            </header>
+            <div>
+              <img
+                src={urlFor(singlePost.authorImage).url()}
+                width={50}
+                height={50}
+                alt={singlePost.name}
+              />
+            </div>
+          </article>
+          <BlockContent
+            blocks={singlePost.body}
+            projectId='o5lg176f'
+            dataset='production'
           />
-        </div>
-      </article>
-      <BlockContent
-        blocks={singlePost.body}
-        projectId='o5lg176f'
-        dataset='production'
-      />
-    </main>
+        </Container>
+      )}
+    </>
   )
 }
 

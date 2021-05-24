@@ -1,0 +1,105 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import './variables.scss';
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+a {
+  text-decoration: none;
+  transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
+    border 0.3s linear;
+
+  &:hover {
+    color: $dark-blue;
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  display: flex;
+  align-content: space-between;
+  min-height: 100vh;
+  flex-flow: wrap;
+
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header {
+  background-color: rgba($white, 0.6);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  backdrop-filter: saturate(180%) blur(20px);
+  margin-top: 50px;
+
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.nav {
+  a {
+    margin-left: 15px;
+    color: $black;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s linear;
+    padding-bottom: 4px;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom-color: $light-green;
+    }
+
+    @media ($tablet) {
+      margin-left: 30px;
+    }
+  }
+}
+
+.theme-toggle {
+  background: $gray;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+
+  &:hover {
+    background: $light-green;
+  }
+
+  svg {
+    width: 18px;
+    fill: $black;
+  }
+}
+
+.footer {
+  .container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba($gray, 1);
+  }
+}
