@@ -39,11 +39,11 @@ const Project = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-4'>Projects:</h1>
+          <h1 className='mb-5 text-center'>Projects:</h1>
           <Row>
             {projectData &&
               projectData.map((project, index) => (
-                <Col md={4}>
+                <Col md={6}>
                   <a
                     key={index}
                     className='project-block'
