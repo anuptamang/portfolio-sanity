@@ -12,7 +12,7 @@ const Header = () => {
             viewBox='0 0 24 24'
             fill='currentColor'
             stroke='currentColor'
-            class='w-4 h-4 text-gray-800 dark:text-gray-200'
+            className='w-4 h-4 text-gray-800 dark:text-gray-200'
           >
             <path
               stroke-linecap='round'

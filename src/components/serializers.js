@@ -1,5 +1,4 @@
 import React from 'react'
-// import SyntaxHighlighter from 'react-syntax-highlighter'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
@@ -14,9 +13,6 @@ const serializers = {
         return null
       }
 
-      const ADDED = [1, 2, 3]
-      const REMOVED = [6]
-
       return (
         <SyntaxHighlighter
           showLineNumbers
@@ -27,8 +23,6 @@ const serializers = {
             let style = { display: 'block' }
             if (highlightedLines?.includes(lineNumber)) {
               style.backgroundColor = 'rgb(14 150 14 / 50%)'
-            } else if (REMOVED.includes(lineNumber)) {
-              style.backgroundColor = 'rgb(146 11 11 / 50%)'
             }
             return { style }
           }}

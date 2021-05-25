@@ -36,7 +36,7 @@ const Post = () => {
           <div>
             {postData &&
               postData.map((post, index) => (
-                <article>
+                <article key={post.slug.current}>
                   <Link
                     to={`/post/${post.slug.current}`}
                     key={post.slug.current}
