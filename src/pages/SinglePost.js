@@ -5,6 +5,7 @@ import sanityClient from '../client'
 import BlockContent from '@sanity/block-content-to-react'
 import { Container } from 'react-bootstrap'
 import Loader from '../components/Loader'
+import serializers from '../components/serializers'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -59,6 +60,7 @@ const SinglePost = () => {
             blocks={singlePost.body}
             projectId='o5lg176f'
             dataset='production'
+            serializers={serializers}
           />
         </Container>
       )}

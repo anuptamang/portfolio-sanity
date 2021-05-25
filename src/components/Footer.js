@@ -26,6 +26,14 @@ const Footer = () => {
           >
             Sanity.io &nbsp;
           </a>
+          • Sourced at &nbsp;
+          <a
+            href='https://github.com/anuptamang/portfolio-sanity'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            Github &nbsp;
+          </a>
           • Hosted on &nbsp;
           <a
             href='https://www.netlify.com/'
