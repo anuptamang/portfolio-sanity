@@ -7,20 +7,27 @@ import Home from './pages/Home'
 import Project from './pages/Project'
 import SinglePost from './pages/SinglePost'
 import ScrollToTop from './utils/scrollTop'
+import { useContext } from 'react'
+import { ThemeContext } from './context/ThemeContext'
 
 function App() {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
+
   return (
     <Router>
       <ScrollToTop>
-        <Header />
-        <main>
-          <Route component={About} path='/about' exact />
-          <Route component={Project} path='/project' exact />
-          <Route component={Post} path='/post' exact />
-          <Route component={SinglePost} path='/post/:slug' exact />
-          <Route component={Home} path='/' exact />
-        </main>
-        <Footer />
+        <div className={`wrapper ${darkMode && 'dark-mode'}`}>
+          <Header />
+          <main>
+            <Route component={About} path='/about' exact />
+            <Route component={Project} path='/project' exact />
+            <Route component={Post} path='/post' exact />
+            <Route component={SinglePost} path='/post/:slug' exact />
+            <Route component={Home} path='/' exact />
+          </main>
+          <Footer />
+        </div>
       </ScrollToTop>
     </Router>
   )

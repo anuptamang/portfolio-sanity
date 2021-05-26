@@ -26,7 +26,6 @@ body {
   font-family: 'Roboto Slab', serif;
   letter-spacing: 0.5px;
   line-height: 1.8;
-  background: $light-gray;
 }
 
 h1,
@@ -42,15 +41,22 @@ h6,
 .h5,
 .h6 {
   font-weight: 700;
+  color: $green;
+  transition: color 0.3s linear;
+
+  .dark-mode & {
+    // color: $white !important;
+  }
 }
 
 a {
   text-decoration: none;
   transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
     border 0.3s linear;
+  color: $green;
 
   &:hover {
-    color: $dark-blue;
+    color: $dark-green;
     text-decoration: none;
   }
 }
@@ -60,11 +66,19 @@ img {
   height: auto;
 }
 
-#root {
+.wrapper {
   display: flex;
   align-content: space-between;
   min-height: 100vh;
   flex-flow: wrap;
+  padding-top: 50px;
+  transition: background 0.3s linear;
+  background: $white;
+
+  &.dark-mode {
+    background: $bg-black;
+    color: $white;
+  }
 
   header,
   main,
@@ -84,14 +98,20 @@ img {
 }
 
 .header {
-  background-color: rgba($white, 0.6);
+  background-color: $white;
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
   backdrop-filter: saturate(180%) blur(20px);
-  margin-top: 50px;
+  transition: background 0.3s linear;
+  // margin-top: 50px;
+
+  .dark-mode & {
+    // background-color: rgba(148, 140, 140, 0.6);
+    background-color: rgba($bg-black, 1);
+  }
 
   .container {
     padding-top: 0;
@@ -108,9 +128,13 @@ img {
     padding-bottom: 4px;
     text-decoration: none;
 
+    .dark-mode & {
+      color: $white;
+    }
+
     &:hover,
     &.active {
-      border-bottom-color: $light-green;
+      border-bottom-color: $green;
     }
 
     @media ($tablet) {
@@ -121,6 +145,7 @@ img {
 
 .theme-toggle {
   background: $gray-300;
+  // background: $green;
   width: 40px;
   height: 40px;
   border: 0;
@@ -131,12 +156,16 @@ img {
   transition: all 0.3s linear;
 
   &:hover {
-    background: $light-green;
+    // background: $green;
+  }
+
+  .dark-mode & {
+    background: $green;
   }
 
   svg {
-    width: 18px;
-    fill: $black;
+    width: 22px;
+    fill: $green;
   }
 }
 
@@ -157,6 +186,10 @@ img {
     padding-top: 30px;
     padding-bottom: 50px;
     border-top: 1px solid $gray-300;
+
+    .dark-mode & {
+      border-color: rgba($gray-300, 0.08);
+    }
   }
 }
 
@@ -282,7 +315,7 @@ img {
   }
 
   h3 {
-    color: $black;
+    color: $green;
   }
 
   &:hover {
