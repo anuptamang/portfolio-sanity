@@ -47,6 +47,11 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      name: 'minRead',
+      title: 'Minute Read',
+      type: 'string',
+    },
   ],
 
   preview: {

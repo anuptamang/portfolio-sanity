@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import sanityClient from '../client'
 import Loader from '../components/Loader'
-import imageUrlBuilder from '@sanity/image-url'
-
-const builder = imageUrlBuilder(sanityClient)
-function urlFor(source) {
-  return builder.image(source)
-}
+import PostBlock from '../components/PostBlock'
+import LogRocket from 'logrocket'
+LogRocket.init('169p6h/test')
 
 const Post = () => {
   const [postData, setPost] = useState(null)
@@ -25,7 +21,9 @@ const Post = () => {
           url
         },
         alt
-      }
+      },
+      publishedAt,
+      minRead
     }`
       )
       .then((data) => setPost(data))
@@ -38,29 +36,21 @@ const Post = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-5 text-center'>Blog</h1>
+          <h1 className='mb-2 text-center'>Hi 👋 , Welcome to my Blog!</h1>
+          <p className='text-center mb-5'>
+            I write contents related to &nbsp;
+            <strong>
+              <em>
+                HTML, CSS, SCSS, SVG, Animations, Javascript, jQuery, React.js,
+                Next.js, Node.js, Express, MongoDB, Jamstack, Headless CMS and
+                sometimes various IT related topics!
+              </em>
+            </strong>
+          </p>
           <div className='post-row'>
             {postData &&
               postData.map((post, index) => (
-                <article key={post.slug.current}>
-                  <Link
-                    className='post d-md-flex'
-                    to={`/post/${post.slug.current}`}
-                    key={post.slug.current}
-                  >
-                    <div
-                      className='img-holder'
-                      style={{
-                        'background-image': `url(
-                  ${urlFor(post.mainImage.asset.url).url()}
-                )`,
-                      }}
-                    ></div>
-                    <div className='description'>
-                      <h3>{post.title}</h3>
-                    </div>
-                  </Link>
-                </article>
+                <PostBlock key={index} post={post} />
               ))}
           </div>
         </Container>

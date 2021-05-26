@@ -6,6 +6,7 @@ import BlockContent from '@sanity/block-content-to-react'
 import { Container } from 'react-bootstrap'
 import Loader from '../components/Loader'
 import serializers from '../components/serializers'
+import Moment from 'react-moment'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -29,9 +30,11 @@ const SinglePost = () => {
           url
         },
       },
+      publishedAt,
       body,
-      "name": author->name,
-      "authorImage": author->image
+      "authorName": author->name,
+      "authorImage": author->image,
+      minRead
     }`
       )
       .then((data) => setSinglePost(data[0]))
@@ -46,15 +49,22 @@ const SinglePost = () => {
         <Container>
           <h1 className='mb-4'>{singlePost.title}</h1>
           <article className='d-flex align-items-center post-meta'>
-            <div
-              className='img-author'
-              style={{
-                'background-image': `url(
-                  ${urlFor(singlePost.authorImage).url()}
-                )`,
-              }}
-            ></div>
-            <div className='name'>{singlePost.name}</div>
+            <div className='left d-flex align-items-center'>
+              <div
+                className='img-author'
+                style={{
+                  backgroundImage: `url(
+                    ${urlFor(singlePost.authorImage).url()}
+                  )`,
+                }}
+              ></div>
+              <div className='name'>
+                {singlePost.authorName} /{' '}
+                <Moment format='MMM D, YYYY'>{singlePost.publishedAt}</Moment>
+                &nbsp;
+              </div>
+            </div>
+            <div className='right'> • {singlePost.minRead} min read</div>
           </article>
           <BlockContent
             blocks={singlePost.body}

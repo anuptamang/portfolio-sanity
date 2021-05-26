@@ -77,6 +77,10 @@ img {
   max-width: 960px;
   padding-top: 50px;
   padding-bottom: 50px;
+
+  &--md {
+    max-width: 860px;
+  }
 }
 
 .header {
@@ -104,7 +108,8 @@ img {
     padding-bottom: 4px;
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &.active {
       border-bottom-color: $light-green;
     }
 
@@ -115,7 +120,7 @@ img {
 }
 
 .theme-toggle {
-  background: $gray;
+  background: $gray-300;
   width: 40px;
   height: 40px;
   border: 0;
@@ -151,12 +156,17 @@ img {
   .container {
     padding-top: 30px;
     padding-bottom: 50px;
-    border-top: 1px solid rgba($gray, 1);
+    border-top: 1px solid $gray-300;
   }
+}
+
+.meta {
+  color: $gray;
 }
 
 .post-meta {
   margin-bottom: 50px;
+  color: $gray;
 
   .img-author {
     width: 30px;
@@ -253,9 +263,10 @@ img {
     margin-bottom: 30px;
     border-radius: 5px;
     overflow: hidden;
-    height: 250px;
+    height: 200px;
     background-position: 50% 50%;
     background-size: cover;
+    box-shadow: 0 0 6px rgba($black, 0.1);
 
     @include media('>=tablet') {
       width: 300px;
@@ -272,5 +283,9 @@ img {
 
   h3 {
     color: $black;
+  }
+
+  &:hover {
+    opacity: 0.9;
   }
 }
