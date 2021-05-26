@@ -1,6 +1,5 @@
 import SanityBlockContent from '@sanity/block-content-to-react'
 import imageUrlBuilder from '@sanity/image-url'
-import Moment from 'react-moment'
 import { Link } from 'react-router-dom'
 import sanityClient from '../client'
 

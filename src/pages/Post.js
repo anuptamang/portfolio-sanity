@@ -37,7 +37,7 @@ const Post = () => {
       ) : (
         <Container>
           <div className='post-holder'>
-            <h1 className='mb-2 text-center'>Hi 👋 , Welcome to my Blog!</h1>
+            <h1 className='mb-2 text-center'>Hey 👋 , Welcome to my Blog!</h1>
             <p className='text-center mb-5'>
               I write contents related to &nbsp;
               <strong>

@@ -10,7 +10,7 @@ const Home = () => {
           className='img-holder'
           style={{ backgroundImage: `url(${akt})` }}
         ></div>
-        <h1>Hi, I'm Anup!</h1>
+        <h1>Hi 👋 I'm Anup!</h1>
         <p>
           I'm a Fullstack Web Developer who is addicted to learning and loves
           coding. <br />

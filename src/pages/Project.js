@@ -1,15 +1,8 @@
-import BlockContent from '@sanity/block-content-to-react'
-import ImageUrlBuilder from '@sanity/image-url'
 import React, { useEffect, useState } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import sanityClient from '../client'
 import Loader from '../components/Loader'
 import ProjectBlock from '../components/ProjectBlock'
-
-const builder = ImageUrlBuilder(sanityClient)
-function urlFor(source) {
-  return builder.image(source)
-}
 
 const Project = () => {
   const [projectData, setProject] = useState(null)
