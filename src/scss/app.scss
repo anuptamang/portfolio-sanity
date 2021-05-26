@@ -41,11 +41,11 @@ h6,
 .h5,
 .h6 {
   font-weight: 700;
-  color: $green;
+  color: $primary-color;
   transition: color 0.3s linear;
 
   .dark-mode & {
-    // color: $white !important;
+    // color: $nord-white !important;
   }
 }
 
@@ -53,10 +53,10 @@ a {
   text-decoration: none;
   transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
     border 0.3s linear;
-  color: $green;
+  color: $primary-color;
 
   &:hover {
-    color: $dark-green;
+    color: $primary-hover-color;
     text-decoration: none;
   }
 }
@@ -73,11 +73,11 @@ img {
   flex-flow: wrap;
   padding-top: 50px;
   transition: background 0.3s linear;
-  background: $white;
+  background: $nord-white;
 
   &.dark-mode {
     background: $bg-black;
-    color: $white;
+    color: $nord-white;
   }
 
   header,
@@ -98,7 +98,7 @@ img {
 }
 
 .header {
-  background-color: $white;
+  background-color: $nord-white;
   position: sticky;
   top: 0;
   left: 0;
@@ -129,12 +129,12 @@ img {
     text-decoration: none;
 
     .dark-mode & {
-      color: $white;
+      color: $nord-white;
     }
 
     &:hover,
     &.active {
-      border-bottom-color: $green;
+      border-bottom-color: $primary-color;
     }
 
     @media ($tablet) {
@@ -146,19 +146,15 @@ img {
 .theme-toggle {
   position: relative;
   background: rgba($gray-300, 0.6);
-  // background: $green;
+  // background: $primary-color;
   width: 40px;
   height: 40px;
   border: 0;
   border-radius: 5px;
   transition: all 0.3s linear;
 
-  &:hover {
-    // background: $green;
-  }
-
   .dark-mode & {
-    background: $green;
+    background: $primary-color;
   }
 
   svg {
@@ -168,7 +164,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: $green;
+    fill: $primary-color;
   }
 }
 
@@ -181,6 +177,14 @@ img {
     margin: 0 auto 50px;
     border-radius: 100%;
     overflow: hidden;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: rgba($gray-300, 0.6);
+    transition: background 0.3s linear;
+
+    .dark-mode & {
+      background-color: $nord-dark;
+    }
   }
 }
 
@@ -194,15 +198,26 @@ img {
       border-color: rgba($gray-300, 0.08);
     }
   }
+
+  .love {
+    font-size: 24px;
+    color: $pink;
+    position: relative;
+    top: 2px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 .meta {
-  color: $gray;
+  color: $nord-gray;
 }
 
 .post-meta {
   margin-bottom: 50px;
-  color: $gray;
+  color: $nord-gray;
 
   .img-author {
     width: 30px;
@@ -230,7 +245,7 @@ img {
   height: 400px;
   position: relative;
   z-index: 1;
-  color: $white;
+  color: $nord-white;
   border-radius: 20px;
   overflow: hidden;
   padding: 10px;
@@ -238,7 +253,7 @@ img {
   margin-bottom: 30px;
 
   &:hover {
-    color: $white;
+    color: $nord-white;
     opacity: 0.9;
   }
 
@@ -280,7 +295,7 @@ img {
 
       > li {
         margin: 2px;
-        background: $white;
+        background: $nord-white;
         padding: 5px 10px;
         border-radius: 4px;
         color: $black;
@@ -289,8 +304,13 @@ img {
   }
 }
 
+.post-holder {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .post {
-  display: flex;
+  display: block;
   width: 100%;
   position: relative;
   margin-bottom: 30px;
@@ -312,16 +332,92 @@ img {
 
   .description {
     @include media('>=tablet') {
-      width: calc(100% - 300px);
-      padding: 0 0 0 30px;
+      // width: calc(100% - 300px);
+      // padding: 0 0 0 30px;
     }
   }
 
   h3 {
-    color: $green;
+    color: $primary-color;
   }
 
   &:hover {
     opacity: 0.9;
+  }
+}
+
+.project-article {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+  background: $nord-light-gray;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba($nord-blue, 0.3);
+  transition: background 0.3s linear, box-shadow 0.3s linear;
+
+  @include media('>=tablet') {
+    min-height: 300px;
+  }
+
+  .img-holder {
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0 0 6px rgba($black, 0.1);
+    height: 300px;
+
+    @include media('>=tablet') {
+      width: 300px;
+      height: auto;
+      margin-bottom: 0;
+    }
+
+    @include media('>=desktop') {
+      width: 400px;
+    }
+  }
+
+  .description {
+    padding: 20px;
+
+    @include media('>=tablet') {
+      width: calc(100% - 300px);
+    }
+
+    @include media('>=desktop') {
+      width: calc(100% - 400px);
+    }
+  }
+
+  h3 {
+    color: $primary-color;
+  }
+
+  &:hover {
+    box-shadow: 0 0 6px rgba($nord-blue, 0.6);
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 1.2;
+    justify-content: center;
+
+    > li {
+      margin: 2px;
+      background: $nord-white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      color: $black;
+    }
+  }
+
+  .dark-mode & {
+    background: $nord-dark;
   }
 }

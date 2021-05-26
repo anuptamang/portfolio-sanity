@@ -36,22 +36,24 @@ const Post = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-2 text-center'>Hi 👋 , Welcome to my Blog!</h1>
-          <p className='text-center mb-5'>
-            I write contents related to &nbsp;
-            <strong>
-              <em>
-                HTML, CSS, SCSS, SVG, Animations, Javascript, jQuery, React.js,
-                Next.js, Node.js, Express, MongoDB, Jamstack, Headless CMS and
-                sometimes various IT related topics!
-              </em>
-            </strong>
-          </p>
-          <div className='post-row'>
-            {postData &&
-              postData.map((post, index) => (
-                <PostBlock key={index} post={post} />
-              ))}
+          <div className='post-holder'>
+            <h1 className='mb-2 text-center'>Hi 👋 , Welcome to my Blog!</h1>
+            <p className='text-center mb-5'>
+              I write contents related to &nbsp;
+              <strong>
+                <em>
+                  HTML, CSS, SCSS, SVG, Animations, Javascript, jQuery,
+                  React.js, Next.js, Node.js, Express, MongoDB, Jamstack,
+                  Headless CMS and sometimes various IT related topics!
+                </em>
+              </strong>
+            </p>
+            <div className='post-row'>
+              {postData &&
+                postData.map((post, index) => (
+                  <PostBlock key={index} post={post} />
+                ))}
+            </div>
           </div>
         </Container>
       )}

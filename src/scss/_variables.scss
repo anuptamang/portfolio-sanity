@@ -7,12 +7,22 @@ $gray-300: rgb(229, 231, 235);
 $gray: #777;
 $light-gray: #fafafa;
 $light-green: #a9f1df;
-// $green: #4e9e8a;
-$green: rgb(129, 161, 193);
-// $dark-green: #3c9c84;
-$dark-green: rgba(129, 161, 193, 0.7);
+$green: #9e8a;
+$dark-green: #3c9c84;
 $blue: #007bff;
 $dark-blue: #434ff5;
+$pink: rgb(180, 142, 173);
+
+$nord-blue: rgb(129, 161, 193);
+$nord-white: rgb(248, 248, 242);
+$nord-green: rgb(163, 190, 140);
+$nord-gray: rgb(99, 111, 136);
+$nord-dark: rgb(46, 52, 64);
+$nord-light-gray: rgba($gray-300, 0.6);
+$nord-pink: rgb(180, 142, 173);
 
 $tablet: 'min-width: 768px';
 $desktop: 'min-width: 1024px';
+
+$primary-color: $nord-blue;
+$primary-hover-color: rgba($primary-color, 0.8);

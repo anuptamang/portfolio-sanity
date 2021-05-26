@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import sanityClient from '../client'
 import Loader from '../components/Loader'
+import ProjectBlock from '../components/ProjectBlock'
 
 const builder = ImageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -40,36 +41,12 @@ const Project = () => {
       ) : (
         <Container>
           <h1 className='mb-5 text-center'>Projects:</h1>
-          <Row>
+          <div>
             {projectData &&
               projectData.map((project, index) => (
-                <Col md={6}>
-                  <a
-                    key={index}
-                    className='project-block'
-                    target='_blank'
-                    rel='noreferrer noopener'
-                    href={project.demoUrl}
-                    style={{
-                      'background-image': `url(
-                      ${urlFor(project.mainImage).url()}
-                    )`,
-                    }}
-                  >
-                    <div className='caption'>
-                      <h3>{project.title}</h3>
-                      <div className='description'>
-                        <BlockContent
-                          blocks={project.description}
-                          projectId='o5lg176f'
-                          dataset='production'
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </Col>
+                <ProjectBlock key={index} project={project} />
               ))}
-          </Row>
+          </div>
         </Container>
       )}
     </>

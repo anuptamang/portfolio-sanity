@@ -13,18 +13,18 @@ const PostBlock = ({ post }) => {
     <>
       <article>
         <Link
-          className='post d-md-flex'
+          className='post'
           to={`/post/${post.slug.current}`}
           key={post.slug.current}
         >
-          <div
+          {/* <div
             className='img-holder'
             style={{
               'background-image': `url(
                   ${urlFor(post.mainImage.asset.url).url()}
                 )`,
             }}
-          ></div>
+          ></div> */}
           <div className='description'>
             <h3>{post.title}</h3>
             <div className='meta d-flex justify-content-between'>

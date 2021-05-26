@@ -7,7 +7,8 @@ const Footer = () => {
     <footer className='footer text-center'>
       <Container>
         <p>
-          Built with ♡ by <NavLink to='/about'>Anup K. Tamang</NavLink>
+          Built with <span className='love'>♡</span> by{' '}
+          <NavLink to='/about'>Anup K. Tamang</NavLink>
         </p>
         <p>
           Created with &nbsp;
