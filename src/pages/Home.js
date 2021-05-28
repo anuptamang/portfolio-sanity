@@ -11,10 +11,14 @@ const Home = () => {
           style={{ backgroundImage: `url(${akt})` }}
         ></div>
         <h1>Hi 👋 I'm Anup!</h1>
+        <h6>
+          I'm a Fullstack Web Developer from Nepal
+          <span className='country'>🇳🇵</span>
+        </h6>
         <p>
-          I'm a Fullstack Web Developer who is addicted to learning and loves
-          coding. <br />
-          I'm a Frontend Dev by Day and Fullstack at Night!
+          I primarily work with HTML, CSS, JavaScript, React, Next and jQuery in
+          the Frontend<br></br> and Node, Express, Mongo, Firebase, Sanity.io,
+          PHP/Wordpress in the Fullstack.
         </p>
       </div>
     </Container>
