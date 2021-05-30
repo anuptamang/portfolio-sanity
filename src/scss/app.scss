@@ -16,6 +16,11 @@ $media-expressions: (
   'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
   'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)',
 );
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700;800&display=swap');
+
 @import './include-media';
 
 @import '~bootstrap/scss/bootstrap';
@@ -23,8 +28,9 @@ $media-expressions: (
 @import './variables.scss';
 
 body {
-  font-family: 'Roboto Slab', serif;
-  letter-spacing: 0.5px;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  // letter-spacing: 0.5px;
   line-height: 1.8;
 }
 
@@ -43,9 +49,19 @@ h6,
   font-weight: 700;
   color: $primary-color;
   transition: color 0.3s linear;
+  letter-spacing: 0;
+  // font-family: 'Londrina Solid';
+  // font-family: 'Acme';
+  font-family: 'Source Sans Pro';
 
   .dark-mode & {
     // color: $nord-bg-white !important;
+  }
+
+  a {
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
 
@@ -59,6 +75,12 @@ a {
     color: $primary-hover-color;
     text-decoration: none;
   }
+}
+
+.tag {
+  color: $pink;
+  font-weight: 700;
+  margin: 0 2px;
 }
 
 img {
@@ -124,6 +146,13 @@ img {
 }
 
 .logo-holder {
+  position: relative;
+  padding: 0 20px 0 10px;
+
+  @include media('>=tablet') {
+    padding: 0 25px 0 15px;
+  }
+
   a {
     color: $nord-blue;
 
@@ -131,11 +160,82 @@ img {
       color: $nord-bg-white;
     }
   }
+
+  .opening-tag,
+  .closing-tag {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 8px;
+    width: 8px;
+    border: 2px solid $nord-green;
+    border-bottom: 0;
+    border-right: 0;
+    transform: rotate(-45deg);
+
+    @include media('>=tablet') {
+      top: 7px;
+      height: 12px;
+      width: 12px;
+      border-width: 3px;
+    }
+  }
+
+  .closing-tag {
+    left: auto;
+    right: 0;
+    transform: rotate(135deg);
+
+    @include media('>=tablet') {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .self-closing-tag {
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    width: 2px;
+    height: 18px;
+    background: $nord-green;
+    transform: rotate(25deg);
+
+    @include media('>=tablet') {
+      right: 12px;
+      top: -1px;
+      width: 3px;
+      height: 26px;
+    }
+  }
+
+  .nepali-name {
+    font-family: 'Mukta';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1;
+
+    @include media('>=tablet') {
+      font-size: 22px;
+    }
+  }
+
+  .english-name {
+    font-family: 'Black Ops One';
+    font-size: 16px;
+    line-height: 1;
+
+    @include media('>=tablet') {
+      font-size: 22px;
+    }
+  }
 }
 
 .nav {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700;
 
   @include media('>=tablet') {
     font-size: 14px;
@@ -143,11 +243,15 @@ img {
 
   a {
     margin-left: 15px;
-    color: $black;
-    border-bottom: 4px solid transparent;
+    color: $nord-blue;
+    border-bottom: 2px solid transparent;
     transition: all 0.3s linear;
     padding-bottom: 4px;
     text-decoration: none;
+
+    @include media('>=tablet') {
+      border-width: 3px;
+    }
 
     .dark-mode & {
       color: $nord-bg-white;
@@ -155,7 +259,7 @@ img {
 
     &:hover,
     &.active {
-      border-bottom-color: $primary-color;
+      border-bottom-color: $nord-green;
     }
 
     @media ($tablet) {
@@ -165,27 +269,42 @@ img {
 }
 
 .theme-toggle {
+  display: block;
   position: relative;
   background: rgba($gray-300, 0.6);
   // background: $primary-color;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   border: 0;
   border-radius: 5px;
   transition: all 0.3s linear;
+
+  @include media('>=tablet') {
+    width: 40px;
+    height: 40px;
+  }
 
   .dark-mode & {
     background: $primary-color;
   }
 
   svg {
-    width: 22px;
-    height: 22px;
+    width: 16px;
+    height: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: $primary-color;
+    fill: $sunny;
+
+    .dark-mode & {
+      fill: $moon;
+    }
+
+    @include media('>=tablet') {
+      width: 22px;
+      height: 22px;
+    }
   }
 }
 
@@ -245,8 +364,14 @@ img {
   }
 }
 
+.curly-brace {
+  color: $nord-green;
+}
+
 .meta {
   color: $nord-gray;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .post-meta {
@@ -386,7 +511,19 @@ img {
   }
 }
 
+.entry {
+  .title {
+    &:before {
+      top: 6%;
+    }
+  }
+}
+
 .timeline {
+  &:before {
+    top: 5px;
+  }
+
   p {
     font-size: 12px;
     line-height: 1.3;
@@ -426,10 +563,16 @@ img {
     font-size: 12px;
     font-weight: 700;
     margin: 0;
-    height: 50px;
-    display: block;
-    line-height: 52px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
     text-indent: 15px;
+    padding-left: 10px;
+
+    @include media('>=tablet') {
+      padding-left: 5px;
+    }
   }
 
   h6 {
@@ -457,5 +600,14 @@ img {
       left: 0;
       top: 0;
     }
+  }
+}
+
+.is-notInView {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+
+  &.is-inView {
+    opacity: 1;
   }
 }

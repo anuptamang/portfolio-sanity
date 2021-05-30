@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import akt from '../images/akt-transparent.png'
 
 const Home = () => {
   return (
@@ -8,17 +7,21 @@ const Home = () => {
       <div className='intro'>
         <div
           className='img-holder'
-          style={{ backgroundImage: `url(${akt})` }}
+          style={{ backgroundImage: `url(/assets/images/akt-transparent.png)` }}
         ></div>
-        <h1>Hi 👋 I'm Anup!</h1>
+        <h1>
+          <span className='curly-brace'>{`{ `}</span>Hi 👋🏻 I'm Anup!
+          <span className='curly-brace'>{` }`}</span>
+        </h1>
         <h6>
           I'm a Fullstack Web Developer from Nepal
           <span className='country'>🇳🇵</span>
         </h6>
         <p>
-          I primarily work with HTML, CSS, JavaScript, React, Next and jQuery in
-          the Frontend<br></br> and Node, Express, Mongo, Firebase, Sanity.io,
-          PHP/Wordpress in the Fullstack.
+          I primarily work with HTML, CSS, JavaScript, React, Next, Gatsby,
+          GraphQL and RESTful in the Frontend
+          <br /> and Node, Express, Mongo, Firebase, Sanity.io, PHP/Wordpress in
+          the Fullstack.
         </p>
       </div>
     </Container>

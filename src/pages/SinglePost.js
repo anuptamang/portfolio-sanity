@@ -47,7 +47,11 @@ const SinglePost = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-4'>{singlePost.title}</h1>
+          <h1 className='mb-4'>
+            <span className='curly-brace'>{`{ `}</span>
+            {singlePost.title}
+            <span className='curly-brace'>{` }`}</span>
+          </h1>
           <article className='d-flex align-items-center post-meta'>
             <div className='left d-flex align-items-center'>
               <div
