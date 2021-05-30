@@ -33,8 +33,11 @@ const Project = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-5 text-center'>Projects:</h1>
-          <div>
+          <h1 className='mb-5'>
+            <span className='curly-brace'>{`{ `}</span>Projects{' '}
+            <span className='curly-brace'>{`} `}</span>
+          </h1>
+          <div className='projects-holder'>
             {projectData &&
               projectData.map((project, index) => (
                 <ProjectBlock key={index} project={project} />

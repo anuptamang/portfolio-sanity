@@ -2,6 +2,7 @@ import SanityBlockContent from '@sanity/block-content-to-react'
 import imageUrlBuilder from '@sanity/image-url'
 import { Link } from 'react-router-dom'
 import sanityClient from '../client'
+import useOnView from '../utils/useOnView'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -9,9 +10,21 @@ function urlFor(source) {
 }
 
 const ProjectBlock = ({ project }) => {
+  const [galleryRef, inView] = useOnView({
+    root: document.querySelector('.project-holder'),
+    rootMargin: '0',
+    threshold: 1,
+  })
+
   return (
     <>
-      <Link to='/' className='project-article d-md-flex'>
+      <Link
+        to='/'
+        className={`project-article d-md-flex ${
+          inView ? 'is-notInView is-inView' : 'is-notInView'
+        }`}
+        ref={galleryRef}
+      >
         <div
           className='img-holder'
           style={{

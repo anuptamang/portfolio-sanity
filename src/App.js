@@ -1,14 +1,14 @@
+import { useContext } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import { ThemeContext } from './context/ThemeContext'
 import About from './pages/About'
-import Post from './pages/Post'
 import Home from './pages/Home'
+import Post from './pages/Post'
 import Project from './pages/Project'
 import SinglePost from './pages/SinglePost'
 import ScrollToTop from './utils/scrollTop'
-import { useContext } from 'react'
-import { ThemeContext } from './context/ThemeContext'
 
 function App() {
   const theme = useContext(ThemeContext)
