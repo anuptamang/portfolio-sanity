@@ -604,10 +604,13 @@ img {
 }
 
 .is-notInView {
+  position: relative;
   opacity: 0;
-  transition: opacity 0.3s linear;
+  transform: translateY(50px);
+  transition: opacity 0.3s linear, transform 0.3s linear;
 
   &.is-inView {
     opacity: 1;
+    transform: translateY(0);
   }
 }
