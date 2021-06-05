@@ -22,8 +22,8 @@ function App() {
           <main>
             <Route component={About} path='/about' exact />
             <Route component={Project} path='/project' exact />
-            <Route component={Post} path='/post' exact />
-            <Route component={SinglePost} path='/post/:slug' exact />
+            <Route component={Post} path='/blog' exact />
+            <Route component={SinglePost} path='/blog/:slug' exact />
             <Route component={Home} path='/' exact />
           </main>
           <Footer />
