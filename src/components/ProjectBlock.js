@@ -10,7 +10,7 @@ function urlFor(source) {
 }
 
 const ProjectBlock = ({ project }) => {
-  const [galleryRef, inView] = useOnView({
+  const [projectRef, inView] = useOnView({
     root: document.querySelector('.project-holder'),
     rootMargin: '0',
     threshold: 1,
@@ -18,12 +18,14 @@ const ProjectBlock = ({ project }) => {
 
   return (
     <>
-      <Link
-        to='/'
+      <a
+        href={`${project.demoUrl}`}
+        rel='noreferrer noopener'
+        target='_blank'
         className={`project-article d-md-flex ${
           inView ? 'is-notInView is-inView' : 'is-notInView'
         }`}
-        ref={galleryRef}
+        ref={projectRef}
       >
         <div
           className='img-holder'
@@ -43,7 +45,7 @@ const ProjectBlock = ({ project }) => {
             />
           </div>
         </div>
-      </Link>
+      </a>
     </>
   )
 }
