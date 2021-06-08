@@ -7,7 +7,7 @@ const PostBlock = ({ post }) => {
       <article>
         <Link
           className='post'
-          to={`/post/${post.slug.current}`}
+          to={`/blog/${post.slug.current}`}
           key={post.slug.current}
         >
           <div className='description'>

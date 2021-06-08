@@ -5,7 +5,7 @@ import Header from './components/Header'
 import { ThemeContext } from './context/ThemeContext'
 import About from './pages/About'
 import Home from './pages/Home'
-import Post from './pages/Post'
+import Blog from './pages/Blog'
 import Project from './pages/Project'
 import SinglePost from './pages/SinglePost'
 import ScrollToTop from './utils/scrollTop'
@@ -22,7 +22,7 @@ function App() {
           <main>
             <Route component={About} path='/about' exact />
             <Route component={Project} path='/project' exact />
-            <Route component={Post} path='/blog' exact />
+            <Route component={Blog} path='/blog' exact />
             <Route component={SinglePost} path='/blog/:slug' exact />
             <Route component={Home} path='/' exact />
           </main>

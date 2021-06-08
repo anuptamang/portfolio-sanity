@@ -28,7 +28,7 @@ const Header = () => {
               <NavLink to='/project' activeClassName='active'>
                 Projects
               </NavLink>
-              <NavLink to='/post' activeClassName='active'>
+              <NavLink to='/blog' activeClassName='active'>
                 Blog
               </NavLink>
             </Nav>
