@@ -14,7 +14,7 @@ const Home = () => {
           <span className='curly-brace'>{` }`}</span>
         </h1>
         <h6>
-          I'm a Fullstack Web Developer from Nepal
+          I'm a Frontend Web Developer from Nepal
           <span className='country'>🇳🇵</span>
         </h6>
         <p>
