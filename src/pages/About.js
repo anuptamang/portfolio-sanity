@@ -48,7 +48,7 @@ const About = () => {
 				</ul>
 				<p>
 					<a
-						href='/assets/cv/anuptamang-cv.pdf'
+						href='/assets/cv/anupKTamang-cv.pdf'
 						target='_blank'
 						rel='noreferrer noopener'
 					>
