@@ -26,7 +26,7 @@ const About = () => {
 						<strong>
 							<em>
 								rw-solutions, the subsidiary company of{' '}
-								<a href='https://p2h.com/' target='_blank'>
+								<a href='https://p2h.com/' target='_blank' rel='noreferrer'>
 									P2H Inc.
 								</a>
 							</em>
