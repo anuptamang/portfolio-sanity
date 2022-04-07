@@ -33,7 +33,15 @@ const About = () => {
 						</strong>{' '}
 						and Part Time ReactJS Dev at &nbsp;
 						<strong>
-							<em>Skyfall Technologies</em>
+							<em>
+								<a
+									href='https://www.skyfalltechnology.com/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Skyfall Technologies
+								</a>
+							</em>
 						</strong>
 						.
 					</li>
