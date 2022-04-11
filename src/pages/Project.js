@@ -7,6 +7,8 @@ import ProjectBlock from '../components/ProjectBlock'
 const Project = () => {
 	const [projectData, setProject] = useState(null)
 
+	console.log(projectData)
+
 	useEffect(() => {
 		sanityClient
 			.fetch(
@@ -20,7 +22,7 @@ const Project = () => {
         },
       },
       demoUrl,
-      gitUrl,
+      repoUrl,
       description
     }`
 			)
