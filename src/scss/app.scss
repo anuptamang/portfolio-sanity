@@ -528,14 +528,14 @@ img {
 
 		> li {
 			margin: 2px;
+			display: flex;
 		}
 
 		a {
 			display: flex;
 			align-items: center;
 			padding: 5px 10px;
-			background: $nord-bg-white;
-
+			background: #8ab1a3;
 			border-radius: 4px;
 			color: $black;
 		}
