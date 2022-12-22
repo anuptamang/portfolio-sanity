@@ -8,7 +8,7 @@ const serializers = {
     code: ({ node = {} }) => {
       const { code, language, highlightedLines } = node
 
-      console.log(highlightedLines)
+      // console.log(highlightedLines)
       if (!code) {
         return null
       }
