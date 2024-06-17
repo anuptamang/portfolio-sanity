@@ -31,8 +31,6 @@ const Post = () => {
   const { data: blogData } = useSWR(queryBlog, fetcher);
   const { data: postData } = useSWR(queryPost, fetcher);
 
-  console.log(blogData);
-
   return (
     <>
       {!postData ? (

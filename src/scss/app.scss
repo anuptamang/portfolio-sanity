@@ -1,37 +1,37 @@
 $breakpoints: (
-	'xs-phone': 320px,
-	'phone': 480px,
-	'tablet': 768px,
-	'desktop': 1024px,
-	'widescreen': 1200px,
+  "xs-phone": 320px,
+  "phone": 480px,
+  "tablet": 768px,
+  "desktop": 1024px,
+  "widescreen": 1200px,
 );
 
 // keywords
 $media-expressions: (
-	'screen': 'screen',
-	'print': 'print',
-	'handheld': 'handheld',
-	'landscape': '(orientation: landscape)',
-	'portrait': '(orientation: portrait)',
-	'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
-	'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)',
+  "screen": "screen",
+  "print": "print",
+  "handheld": "handheld",
+  "landscape": "(orientation: landscape)",
+  "portrait": "(orientation: portrait)",
+  "retina2x": "(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)",
+  "retina3x": "(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)",
 );
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@700;800&display=swap");
 
-@import './include-media';
+@import "./include-media";
 
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
-@import './variables.scss';
+@import "./variables.scss";
 
 body {
-	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	// letter-spacing: 0.5px;
-	line-height: 1.8;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  // letter-spacing: 0.5px;
+  line-height: 1.8;
 }
 
 h1,
@@ -46,606 +46,614 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-weight: 700;
-	color: $primary-color;
-	transition: color 0.3s linear;
-	letter-spacing: 0;
-	// font-family: 'Londrina Solid';
-	// font-family: 'Acme';
-	font-family: 'Source Sans Pro';
+  font-weight: 700;
+  color: $primary-color;
+  transition: color 0.3s linear;
+  letter-spacing: 0;
+  // font-family: 'Londrina Solid';
+  // font-family: 'Acme';
+  font-family: "Source Sans Pro";
 
-	.dark-mode & {
-		// color: $nord-bg-white !important;
-	}
+  .dark-mode & {
+    // color: $nord-bg-white !important;
+  }
 
-	a {
-		&:hover {
-			opacity: 0.7;
-		}
-	}
+  a {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
 
 a {
-	text-decoration: none;
-	transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
-		border 0.3s linear;
-	color: $primary-color;
+  text-decoration: none;
+  transition: background 0.3s linear, color 0.3s linear, opacity 0.3s linear,
+    border 0.3s linear;
+  color: $primary-color;
 
-	&:hover {
-		color: $primary-hover-color;
-		text-decoration: none;
-	}
+  &:hover {
+    color: $primary-hover-color;
+    text-decoration: none;
+  }
 }
 
 .tag {
-	color: $pink;
-	font-weight: 700;
-	margin: 0 2px;
+  color: $pink;
+  font-weight: 700;
+  margin: 0 2px;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .wrapper {
-	display: flex;
-	align-content: space-between;
-	min-height: 100vh;
-	flex-flow: wrap;
-	padding-top: 0;
-	transition: background 0.3s linear;
-	background: $nord-bg-white;
+  display: flex;
+  align-content: space-between;
+  min-height: 100vh;
+  flex-flow: wrap;
+  padding-top: 0;
+  transition: background 0.3s linear;
+  background: $nord-bg-white;
 
-	@include media('>=tablet') {
-		padding-top: 50px;
-	}
+  @include media(">=tablet") {
+    padding-top: 50px;
+  }
 
-	&.dark-mode {
-		background: $bg-black;
-		color: $nord-bg-white;
-	}
+  &.dark-mode {
+    background: $bg-black;
+    color: $nord-bg-white;
+  }
 
-	header,
-	main,
-	footer {
-		width: 100%;
-	}
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
 }
 
 .container {
-	max-width: 960px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+  max-width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-	&--md {
-		max-width: 860px;
-	}
+  &--md {
+    max-width: 860px;
+  }
 }
 
 .header {
-	background-color: $nord-bg-white;
-	position: sticky;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 999;
-	backdrop-filter: saturate(180%) blur(20px);
-	transition: background 0.3s linear;
-	// margin-top: 50px;
+  background-color: $nord-bg-white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: background 0.3s linear;
+  // margin-top: 50px;
 
-	.dark-mode & {
-		// background-color: rgba(148, 140, 140, 0.6);
-		background-color: rgba($bg-black, 1);
-	}
+  .dark-mode & {
+    // background-color: rgba(148, 140, 140, 0.6);
+    background-color: rgba($bg-black, 1);
+  }
 
-	.container {
-		padding-top: 0;
-		padding-bottom: 0;
-	}
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .logo-holder {
-	position: relative;
-	padding: 0 20px 0 10px;
+  position: relative;
+  padding: 0 20px 0 10px;
 
-	@include media('>=tablet') {
-		padding: 0 25px 0 15px;
-	}
+  @include media(">=tablet") {
+    padding: 0 25px 0 15px;
+  }
 
-	a {
-		color: $nord-blue;
+  a {
+    color: $nord-blue;
 
-		.dark-mode & {
-			color: $nord-bg-white;
-		}
-	}
+    .dark-mode & {
+      color: $nord-bg-white;
+    }
+  }
 
-	.opening-tag,
-	.closing-tag {
-		position: absolute;
-		left: 0;
-		top: 10px;
-		height: 8px;
-		width: 8px;
-		border: 2px solid $nord-green;
-		border-bottom: 0;
-		border-right: 0;
-		transform: rotate(-45deg);
+  .opening-tag,
+  .closing-tag {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 8px;
+    width: 8px;
+    border: 2px solid $nord-green;
+    border-bottom: 0;
+    border-right: 0;
+    transform: rotate(-45deg);
 
-		@include media('>=tablet') {
-			top: 7px;
-			height: 12px;
-			width: 12px;
-			border-width: 3px;
-		}
-	}
+    @include media(">=tablet") {
+      top: 7px;
+      height: 12px;
+      width: 12px;
+      border-width: 3px;
+    }
+  }
 
-	.closing-tag {
-		left: auto;
-		right: 0;
-		transform: rotate(135deg);
+  .closing-tag {
+    left: auto;
+    right: 0;
+    transform: rotate(135deg);
 
-		@include media('>=tablet') {
-			left: auto;
-			right: 0;
-		}
-	}
+    @include media(">=tablet") {
+      left: auto;
+      right: 0;
+    }
+  }
 
-	.self-closing-tag {
-		position: absolute;
-		right: 8px;
-		top: 4px;
-		width: 2px;
-		height: 18px;
-		background: $nord-green;
-		transform: rotate(25deg);
+  .self-closing-tag {
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    width: 2px;
+    height: 18px;
+    background: $nord-green;
+    transform: rotate(25deg);
 
-		@include media('>=tablet') {
-			right: 12px;
-			top: -1px;
-			width: 3px;
-			height: 26px;
-		}
-	}
+    @include media(">=tablet") {
+      right: 12px;
+      top: -1px;
+      width: 3px;
+      height: 26px;
+    }
+  }
 
-	.nepali-name {
-		font-family: 'Mukta';
-		font-weight: 800;
-		font-size: 16px;
-		line-height: 1;
+  .nepali-name {
+    font-family: "Mukta";
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1;
 
-		@include media('>=tablet') {
-			font-size: 22px;
-		}
-	}
+    @include media(">=tablet") {
+      font-size: 22px;
+    }
+  }
 
-	.english-name {
-		font-family: 'Black Ops One';
-		font-size: 16px;
-		line-height: 1;
+  .english-name {
+    font-family: "Black Ops One";
+    font-size: 16px;
+    line-height: 1;
 
-		@include media('>=tablet') {
-			font-size: 22px;
-		}
-	}
+    @include media(">=tablet") {
+      font-size: 22px;
+    }
+  }
 }
 
 .nav {
-	font-size: 10px;
-	line-height: 1.2;
-	text-transform: uppercase;
-	font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700;
 
-	@include media('>=tablet') {
-		font-size: 14px;
-	}
+  @include media(">=tablet") {
+    font-size: 14px;
+  }
 
-	a {
-		margin-left: 15px;
-		color: $nord-blue;
-		border-bottom: 2px solid transparent;
-		transition: all 0.3s linear;
-		padding-bottom: 4px;
-		text-decoration: none;
+  a {
+    margin-left: 15px;
+    color: $nord-blue;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s linear;
+    padding-bottom: 4px;
+    text-decoration: none;
 
-		@include media('>=tablet') {
-			border-width: 3px;
-		}
+    @include media(">=tablet") {
+      border-width: 3px;
+    }
 
-		.dark-mode & {
-			color: $nord-bg-white;
-		}
+    .dark-mode & {
+      color: $nord-bg-white;
+    }
 
-		&:hover,
-		&.active {
-			border-bottom-color: $nord-green;
-		}
+    &:hover,
+    &.active {
+      border-bottom-color: $nord-green;
+    }
 
-		@media ($tablet) {
-			margin-left: 30px;
-		}
-	}
+    @media ($tablet) {
+      margin-left: 30px;
+    }
+  }
 }
 
 .theme-toggle {
-	display: block;
-	position: relative;
-	background: rgba($gray-300, 0.6);
-	// background: $primary-color;
-	width: 25px;
-	height: 25px;
-	border: 0;
-	border-radius: 5px;
-	transition: all 0.3s linear;
+  display: block;
+  position: relative;
+  background: rgba($gray-300, 0.6);
+  // background: $primary-color;
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.3s linear;
 
-	@include media('>=tablet') {
-		width: 40px;
-		height: 40px;
-	}
+  @include media(">=tablet") {
+    width: 40px;
+    height: 40px;
+  }
 
-	.dark-mode & {
-		background: $primary-color;
-	}
+  .dark-mode & {
+    background: $primary-color;
+  }
 
-	svg {
-		width: 16px;
-		height: 16px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		fill: $sunny;
+  svg {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: $sunny;
 
-		.dark-mode & {
-			fill: $moon;
-		}
+    .dark-mode & {
+      fill: $moon;
+    }
 
-		@include media('>=tablet') {
-			width: 22px;
-			height: 22px;
-		}
-	}
+    @include media(">=tablet") {
+      width: 22px;
+      height: 22px;
+    }
+  }
 }
 
 .intro {
-	text-align: center;
+  text-align: center;
 
-	.img-holder {
-		width: 200px;
-		height: 200px;
-		margin: 0 auto 50px;
-		border-radius: 100%;
-		overflow: hidden;
-		background-size: cover;
-		background-position: 50% 50%;
-		background-color: rgba($gray-300, 0.6);
-		transition: background 0.3s linear;
+  .img-holder {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: rgba($gray-300, 0.6);
+    transition: background 0.3s linear;
 
-		.dark-mode & {
-			background-color: $nord-dark;
-		}
-	}
+    .dark-mode & {
+      background-color: $nord-dark;
+    }
+  }
 }
 
 .country {
-	font-size: 34px;
-	line-height: 1;
-	display: inline-block;
-	vertical-align: baseline;
-	position: relative;
-	top: 5px;
-	left: -7px;
+  font-size: 34px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: baseline;
+  position: relative;
+  top: 5px;
+  left: -7px;
 }
 
 .footer {
-	font-size: 12px;
-	line-height: 1.2;
+  font-size: 12px;
+  line-height: 1.2;
 
-	.container {
-		padding-top: 30px;
-		padding-bottom: 50px;
-		border-top: 1px solid $gray-300;
+  .container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 1px solid $gray-300;
 
-		.dark-mode & {
-			border-color: rgba($gray-300, 0.08);
-		}
-	}
+    .dark-mode & {
+      border-color: rgba($gray-300, 0.08);
+    }
+  }
 
-	.love {
-		font-size: 18px;
-		color: $pink;
-		position: relative;
-		top: 2px;
-	}
+  .love {
+    font-size: 18px;
+    color: $pink;
+    position: relative;
+    top: 2px;
+  }
 
-	p {
-		margin-bottom: 10px;
-	}
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 .curly-brace {
-	color: $nord-green;
+  color: $nord-green;
 }
 
 .meta {
-	color: $nord-gray;
-	font-size: 14px;
-	line-height: 1.2;
+  color: $nord-gray;
+  font-size: 14px;
+  line-height: 1.2;
 
-	.dark-mode & {
-		color: $nord-white;
-	}
+  .dark-mode & {
+    color: $nord-white;
+  }
 }
 
 .post-meta {
-	margin-bottom: 50px;
-	color: $nord-gray;
+  margin-bottom: 50px;
+  color: $nord-gray;
 
-	.img-author {
-		width: 30px;
-		height: 30px;
-		overflow: hidden;
-		border-radius: 100%;
-		margin: 0 10px 0 0;
-		background-position: 50% 50%;
-		background-size: cover;
-	}
+  .img-author {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
 
-	.name {
-		font-size: 14px;
-	}
+  .name {
+    font-size: 14px;
+  }
 }
 
 .post-holder {
-	max-width: 700px;
-	margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .post {
-	display: block;
-	width: 100%;
-	position: relative;
-	margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
 
-	.img-holder {
-		margin-bottom: 30px;
-		border-radius: 5px;
-		overflow: hidden;
-		height: 200px;
-		background-position: 50% 50%;
-		background-size: cover;
-		box-shadow: 0 0 6px rgba($black, 0.1);
+  .img-holder {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 200px;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0 0 6px rgba($black, 0.1);
 
-		@include media('>=tablet') {
-			width: 300px;
-			margin-bottom: 0;
-		}
-	}
+    @include media(">=tablet") {
+      width: 300px;
+      margin-bottom: 0;
+    }
+  }
 
-	.description {
-		@include media('>=tablet') {
-			// width: calc(100% - 300px);
-			// padding: 0 0 0 30px;
-		}
-	}
+  .description {
+    @include media(">=tablet") {
+      // width: calc(100% - 300px);
+      // padding: 0 0 0 30px;
+    }
+  }
 
-	h3 {
-		color: $primary-color;
-	}
+  h3 {
+    color: $primary-color;
+  }
 
-	&:hover {
-		opacity: 0.9;
-	}
+  &:hover {
+    opacity: 0.9;
+  }
 }
 
 .project-article {
-	width: 100%;
-	position: relative;
-	margin-bottom: 30px;
-	// background: $nord-light-gray;
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: 0 0 2px rgba($nord-blue, 0.3);
-	transition: background 0.3s linear, box-shadow 0.3s linear;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+  // background: $nord-light-gray;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 2px rgba($nord-blue, 0.3);
+  transition: background 0.3s linear, box-shadow 0.3s linear;
 
-	@include media('>=tablet') {
-		min-height: 300px;
-	}
+  @include media(">=tablet") {
+    min-height: 300px;
+  }
 
-	.dark-mode & {
-		color: $nord-white;
-	}
+  .dark-mode & {
+    color: $nord-white;
+  }
 
-	.img-holder {
-		overflow: hidden;
-		background-position: 50% 50%;
-		background-size: cover;
-		box-shadow: 0 0 6px rgba($black, 0.1);
-		height: 300px;
+  .img-holder {
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0 0 6px rgba($black, 0.1);
+    height: 300px;
 
-		@include media('>=tablet') {
-			width: 300px;
-			height: auto;
-			margin-bottom: 0;
-		}
+    @include media(">=tablet") {
+      width: 300px;
+      height: auto;
+      margin-bottom: 0;
+    }
 
-		@include media('>=desktop') {
-			width: 400px;
-		}
-	}
+    @include media(">=desktop") {
+      width: 400px;
+    }
+  }
 
-	.description {
-		padding: 20px;
+  .description {
+    padding: 20px;
 
-		@include media('>=tablet') {
-			width: calc(100% - 300px);
-		}
+    @include media(">=tablet") {
+      width: calc(100% - 300px);
+    }
 
-		@include media('>=desktop') {
-			width: calc(100% - 400px);
-		}
-	}
+    @include media(">=desktop") {
+      width: calc(100% - 400px);
+    }
+  }
 
-	h3 {
-		color: $primary-color;
-	}
+  h3 {
+    color: $primary-color;
+  }
 
-	&:hover {
-		box-shadow: 0 0 6px rgba($nord-blue, 0.5);
-	}
+  &:hover {
+    box-shadow: 0 0 6px rgba($nord-blue, 0.5);
+  }
 
-	.meta {
-		ul {
-			padding: 0;
-			list-style-type: none;
-			margin: 0;
-			display: flex;
-			flex-wrap: wrap;
-			font-size: 12px;
-			line-height: 1.2;
-			justify-content: center;
+  .meta {
+    ul {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 1.2;
+      justify-content: center;
 
-			> li {
-				margin: 2px;
-				background: $nord-bg-white;
-				padding: 5px 10px;
-				border-radius: 4px;
-				color: $black;
-			}
-		}
-	}
+      > li {
+        margin: 2px;
+        background: $nord-bg-white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        color: $black;
+      }
+    }
+  }
 
-	.list-inline {
-		padding: 50px 0 0;
-		list-style-type: none;
-		margin: 0;
-		display: flex;
-		flex-wrap: wrap;
-		font-size: 12px;
-		line-height: 1.2;
-		justify-content: center;
+  .list-inline {
+    padding: 50px 0 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 1.2;
+    justify-content: center;
 
-		> li {
-			margin: 2px;
-			display: flex;
-		}
+    > li {
+      margin: 2px;
+      display: flex;
+    }
 
-		a {
-			display: flex;
-			align-items: center;
-			padding: 5px 10px;
-			background: #8ab1a3;
-			border-radius: 4px;
-			color: $black;
-		}
-	}
+    a {
+      display: flex;
+      align-items: center;
+      padding: 5px 10px;
+      background: #8ab1a3;
+      border-radius: 4px;
+      color: $black;
+    }
+  }
 
-	.dark-mode & {
-		// background: $nord-dark;
-	}
+  .dark-mode & {
+    // background: $nord-dark;
+  }
 }
 
 .entry {
-	.title {
-		&:before {
-			top: 6%;
-		}
-	}
+  .title {
+    &:before {
+      top: 6%;
+    }
+  }
 }
 
 .timeline {
-	&:before {
-		top: 5px;
-	}
+  &:before {
+    top: 5px;
+  }
 
-	p {
-		font-size: 12px;
-		line-height: 1.3;
+  p {
+    font-size: 12px;
+    line-height: 1.3;
 
-		.dark-mode & {
-			color: $nord-bg-white !important;
-		}
-	}
+    .dark-mode & {
+      color: $nord-bg-white !important;
+    }
+  }
 
-	h6 {
-		margin-bottom: 20px !important;
-	}
+  h6 {
+    margin-bottom: 20px !important;
+  }
 
-	.timeline-item-dateinner {
-		font-size: 14px !important;
-		background: $nord-gray !important;
-	}
+  .timeline-item-dateinner {
+    font-size: 14px !important;
+    background: $nord-gray !important;
+  }
 
-	.timeline-item-date {
-		background: none !important;
-		font-size: 12px !important;
-	}
+  .timeline-item-date {
+    background: none !important;
+    font-size: 12px !important;
+  }
 
-	.date-info {
-		position: absolute;
-		top: -12px;
-		left: 0;
-		background: #ddd;
-		padding: 1px;
-		-webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
-		clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
-		box-sizing: border-box;
-		width: 90%;
-		background: $nord-gray;
-		color: $nord-bg-white;
-		padding: 0;
-		font-size: 12px;
-		font-weight: 700;
-		margin: 0;
-		height: 40px;
-		display: flex;
-		align-items: center;
-		line-height: 1;
-		text-indent: 15px;
-		padding-left: 10px;
+  .date-info {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    background: #ddd;
+    padding: 1px;
+    -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    box-sizing: border-box;
+    width: 90%;
+    background: $nord-gray;
+    color: $nord-bg-white;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    text-indent: 15px;
+    padding-left: 10px;
 
-		@include media('>=tablet') {
-			padding-left: 5px;
-		}
-	}
+    @include media(">=tablet") {
+      padding-left: 5px;
+    }
+  }
 
-	h6 {
-		font-size: 15px;
-		font-weight: 400;
-	}
+  h6 {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 .list-responsibility {
-	font-size: 14px;
-	line-height: 1.3;
+  font-size: 14px;
+  line-height: 1.3;
 
-	.dark-mode & {
-		color: $nord-bg-white !important;
-	}
+  .dark-mode & {
+    color: $nord-bg-white !important;
+  }
 
-	li {
-		position: relative;
-		padding: 0 0 0 30px;
-		margin-bottom: 10px;
+  li {
+    position: relative;
+    padding: 0 0 0 30px;
+    margin-bottom: 10px;
 
-		&:before {
-			content: '👉';
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
-	}
+    &:before {
+      content: "👉";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
 }
 
 .is-notInView {
-	position: relative;
-	opacity: 0;
-	transform: translateY(50px);
-	transition: opacity 0.3s linear, transform 0.3s linear;
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.3s linear, transform 0.3s linear;
 
-	&.is-inView {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  &.is-inView {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-about,
+.list-unstyled {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 }
