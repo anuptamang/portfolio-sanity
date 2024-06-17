@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import { Container } from 'react-bootstrap'
-import sanityClient from '../client'
-import Loader from '../components/Loader'
-import ProjectBlock from '../components/ProjectBlock'
+import React from "react";
+import { Container } from "react-bootstrap";
+import useSWR from "swr";
+import Loader from "../components/Loader";
+import ProjectBlock from "../components/ProjectBlock";
+import { fetcher } from "../utils/fetcher";
 
 const Project = () => {
-  const [projectData, setProject] = useState(null)
-
-  useEffect(() => {
-    sanityClient
-      .fetch(
-        `*[_type== 'project']{
+  const query = `*[_type== 'project']{
       title,
       _id,
       mainImage{
@@ -22,11 +18,9 @@ const Project = () => {
       demoUrl,
       repoUrl,
       description
-    }`
-      )
-      .then((data) => setProject(data))
-      .catch(console.error)
-  }, [])
+    }`;
+
+  const { data: projectData } = useSWR(query, fetcher);
 
   return (
     <>
@@ -34,11 +28,11 @@ const Project = () => {
         <Loader />
       ) : (
         <Container>
-          <h1 className='mb-5'>
-            <span className='curly-brace'>{`{ `}</span>Projects{' '}
-            <span className='curly-brace'>{`} `}</span>
+          <h1 className="mb-5">
+            <span className="curly-brace">{`{ `}</span>Projects{" "}
+            <span className="curly-brace">{`} `}</span>
           </h1>
-          <div className='projects-holder'>
+          <div className="projects-holder">
             {projectData &&
               projectData.map((project, index) => (
                 <ProjectBlock key={index} project={project} />
@@ -47,7 +41,7 @@ const Project = () => {
         </Container>
       )}
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
