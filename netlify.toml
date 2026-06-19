@@ -1,0 +1,6 @@
+[build]
+  command = "NODE_OPTIONS=--openssl-legacy-provider yarn build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20.19.0"
