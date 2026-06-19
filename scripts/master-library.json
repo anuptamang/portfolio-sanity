@@ -1,0 +1,836 @@
+{
+  "catalog": "master-library",
+  "version": "1.3",
+  "books": [
+    {
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "category": "investing"
+    },
+    {
+      "title": "Security Analysis",
+      "author": "Benjamin Graham & David Dodd",
+      "category": "investing"
+    },
+    {
+      "title": "One Up On Wall Street",
+      "author": "Peter Lynch",
+      "category": "investing"
+    },
+    {
+      "title": "Common Stocks and Uncommon Profits",
+      "author": "Philip A. Fisher",
+      "category": "investing"
+    },
+    {
+      "title": "The Warren Buffett Way",
+      "author": "Robert Hagstrom",
+      "category": "investing"
+    },
+    {
+      "title": "The Essays of Warren Buffett",
+      "author": "Lawrence Cunningham",
+      "category": "investing"
+    },
+    {
+      "title": "The Little Book of Common Sense Investing",
+      "author": "John C. Bogle",
+      "category": "investing"
+    },
+    {
+      "title": "Market Wizards",
+      "author": "Jack D. Schwager",
+      "category": "trading"
+    },
+    {
+      "title": "Trading in the Zone",
+      "author": "Mark Douglas",
+      "category": "trading"
+    },
+    {
+      "title": "Reminiscences of a Stock Operator",
+      "author": "Edwin Lefevre",
+      "category": "trading"
+    },
+    {
+      "title": "Best Loser Wins",
+      "author": "Tom Hougaard",
+      "category": "trading"
+    },
+    {
+      "title": "How to Make Money in Stocks",
+      "author": "William J. O'Neil",
+      "category": "investing"
+    },
+    {
+      "title": "How I Made $2,000,000 in the Stock Market",
+      "author": "Nicolas Darvas",
+      "category": "trading"
+    },
+    {
+      "title": "Fooled by Randomness",
+      "author": "Nassim Nicholas Taleb",
+      "category": "finance"
+    },
+    {
+      "title": "Antifragile",
+      "author": "Nassim Nicholas Taleb",
+      "category": "finance"
+    },
+    {
+      "title": "The Richest Man in Babylon",
+      "author": "George S. Clason",
+      "category": "finance"
+    },
+    {
+      "title": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "category": "economics"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "category": "business"
+    },
+    {
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "category": "personal-development"
+    },
+    {
+      "title": "Financial Affairs of the Common Man",
+      "author": "Anil Lamba",
+      "category": "finance"
+    },
+    {
+      "title": "Timeless Wisdom on Finance",
+      "author": "Anil Lamba",
+      "category": "finance"
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "category": "psychology"
+    },
+    {
+      "title": "Emotional Intelligence",
+      "author": "Daniel Goleman",
+      "category": "psychology"
+    },
+    {
+      "title": "The Myth of Normal",
+      "author": "Gabor Maté",
+      "category": "psychology"
+    },
+    {
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "category": "astronomy"
+    },
+    {
+      "title": "The Theory of Everything",
+      "author": "Stephen Hawking",
+      "category": "physics"
+    },
+    {
+      "title": "Relativity: The Special and the General Theory",
+      "author": "Albert Einstein",
+      "category": "physics"
+    },
+    {
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "category": "science"
+    },
+    {
+      "title": "Autobiography of a Yogi",
+      "author": "Paramahansa Yogananda",
+      "category": "spirituality"
+    },
+    {
+      "title": "Light on Yoga",
+      "author": "B.K.S. Iyengar",
+      "category": "yoga"
+    },
+    {
+      "title": "Death: An Inside Story",
+      "author": "Sadhguru",
+      "category": "spirituality"
+    },
+    {
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "category": "spirituality"
+    },
+    {
+      "title": "Truth",
+      "author": "Acharya Prashant",
+      "category": "philosophy"
+    },
+    {
+      "title": "Freedom from the Known",
+      "author": "J. Krishnamurti",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Tibetan Book of the Dead",
+      "author": "Traditional",
+      "category": "buddhism"
+    },
+    {
+      "title": "Buddha",
+      "author": "Karen Armstrong",
+      "category": "buddhism"
+    },
+    {
+      "title": "What Makes You Not a Buddhist",
+      "author": "Dzongsar Jamyang Khyentse",
+      "category": "buddhism"
+    },
+    {
+      "title": "Cutting Through Spiritual Materialism",
+      "author": "Chögyam Trungpa",
+      "category": "buddhism"
+    },
+    {
+      "title": "The Prophet",
+      "author": "Kahlil Gibran",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Complete Book of Yoga",
+      "author": "Swami Vivekananda",
+      "category": "yoga"
+    },
+    {
+      "title": "The Inner Journey",
+      "author": "Osho",
+      "category": "spirituality"
+    },
+    {
+      "title": "Prajnaparamita in Tibetan Buddhism",
+      "author": "Edward Conze",
+      "category": "buddhism"
+    },
+    {
+      "title": "Dalai Lama: Man, Monk, Mystic",
+      "author": "Mayank Chhaya",
+      "category": "buddhism"
+    },
+    {
+      "title": "Quantum Theory",
+      "author": "Max Planck and Niels Bohr",
+      "category": "physics"
+    },
+    {
+      "title": "The Secret",
+      "author": "Rhonda Byrne",
+      "category": "personal-development"
+    },
+    {
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Fabric of the Cosmos",
+      "author": "Brian Greene",
+      "category": "physics"
+    },
+    {
+      "title": "Iron in the Soul",
+      "author": "Jean-Paul Sartre",
+      "category": "literature"
+    },
+    {
+      "title": "Patanjali's Yoga Sutras",
+      "author": "Swami Vivekananda",
+      "category": "yoga"
+    },
+    {
+      "title": "Waking Up",
+      "author": "Sam Harris",
+      "category": "spirituality"
+    },
+    {
+      "title": "Tao Te Ching",
+      "author": "Lao Tzu",
+      "category": "philosophy"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Intelligence Trap",
+      "author": "David Robson",
+      "category": "psychology"
+    },
+    {
+      "title": "Thinking in Bets",
+      "author": "Annie Duke",
+      "category": "psychology"
+    },
+    {
+      "title": "Nature, Man and Woman",
+      "author": "Alan Watts",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Art of Spending Money",
+      "author": "Morgan Housel",
+      "category": "finance"
+    },
+    {
+      "title": "Mastering the Market Cycle",
+      "author": "Howard Marks",
+      "category": "investing"
+    },
+    {
+      "title": "The Most Important Thing",
+      "author": "Howard Marks",
+      "category": "investing"
+    },
+    {
+      "title": "How Much Land Does a Man Need?",
+      "author": "Leo Tolstoy",
+      "category": "literature"
+    },
+    {
+      "title": "Selected Poems",
+      "author": "Rumi & Coleman Barks",
+      "category": "literature"
+    },
+    {
+      "title": "Thus Spoke Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Nicomachean Ethics",
+      "author": "Aristotle",
+      "category": "philosophy"
+    },
+    {
+      "title": "As a Man Thinketh",
+      "author": "James Allen",
+      "category": "personal-development"
+    },
+    {
+      "title": "Psycho-Cybernetics",
+      "author": "Maxwell Maltz",
+      "category": "psychology"
+    },
+    {
+      "title": "The Greatest Show on Earth",
+      "author": "Richard Dawkins",
+      "category": "science"
+    },
+    {
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx & Friedrich Engels",
+      "category": "politics"
+    },
+    {
+      "title": "The Outsider",
+      "author": "Albert Camus",
+      "category": "literature"
+    },
+    {
+      "title": "Rationality",
+      "author": "Steven Pinker",
+      "category": "psychology"
+    },
+    {
+      "title": "The Art of Living",
+      "author": "Thich Nhat Hanh",
+      "category": "buddhism"
+    },
+    {
+      "title": "The God Equation",
+      "author": "Michio Kaku",
+      "category": "physics"
+    },
+    {
+      "title": "The Wisdom of Insecurity",
+      "author": "Alan Watts",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Way of Zen",
+      "author": "Alan Watts",
+      "category": "buddhism"
+    },
+    {
+      "title": "The Feynman Lectures on Physics",
+      "author": "Richard Feynman, Robert Leighton & Matthew Sands",
+      "category": "physics"
+    },
+    {
+      "title": "Walk Like a Girl",
+      "author": "Prabal Gurung",
+      "category": "biography"
+    },
+    {
+      "title": "Grit",
+      "author": "Angela Duckworth",
+      "category": "psychology"
+    },
+    {
+      "title": "Principles for Dealing with the Changing World Order",
+      "author": "Ray Dalio",
+      "category": "economics"
+    },
+    {
+      "title": "Principles",
+      "author": "Ray Dalio",
+      "category": "business"
+    },
+    {
+      "title": "The History of the Peloponnesian War",
+      "author": "Thucydides",
+      "category": "history"
+    },
+    {
+      "title": "The First and Last Freedom",
+      "author": "J. Krishnamurti",
+      "category": "philosophy"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "literature"
+    },
+    {
+      "title": "The Innovators",
+      "author": "Walter Isaacson",
+      "category": "business"
+    },
+    {
+      "title": "Brilliant Moon: The Autobiography of Dilgo Khyentse",
+      "author": "Dilgo Khyentse",
+      "category": "buddhism"
+    },
+    {
+      "title": "Skin in the Game",
+      "author": "Nassim Nicholas Taleb",
+      "category": "finance"
+    },
+    {
+      "title": "Superforecasting",
+      "author": "Philip Tetlock & Dan Gardner",
+      "category": "psychology"
+    },
+    {
+      "title": "Descartes: A Very Short Introduction",
+      "author": "Tom Sorell",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Book of Secrets",
+      "author": "Osho",
+      "category": "spirituality"
+    },
+    {
+      "title": "Outlive",
+      "author": "Peter Attia & Bill Gifford",
+      "category": "science"
+    },
+    {
+      "title": "How to Do the Work",
+      "author": "Nicole LePera",
+      "category": "psychology"
+    },
+    {
+      "title": "How to Meet Your Self",
+      "author": "Nicole LePera",
+      "category": "psychology"
+    },
+    {
+      "title": "Practical Vedanta",
+      "author": "Swami Vivekananda",
+      "category": "spirituality"
+    },
+    {
+      "title": "Totem and Taboo",
+      "author": "Sigmund Freud",
+      "category": "psychology"
+    },
+    {
+      "title": "A Critical History of Western Philosophy",
+      "author": "Y. Masih",
+      "category": "philosophy"
+    },
+    {
+      "title": "Knowing Mandela",
+      "author": "John Carlin",
+      "category": "biography"
+    },
+    {
+      "title": "The Black Swan",
+      "author": "Nassim Nicholas Taleb",
+      "category": "finance"
+    },
+    {
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "category": "physics"
+    },
+    {
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "category": "literature"
+    },
+    {
+      "title": "Why Has Nobody Told Me This Before",
+      "author": "Julie Smith",
+      "category": "psychology"
+    },
+    {
+      "title": "Essentialism",
+      "author": "Greg McKeown",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Almanack of Naval Ravikant",
+      "author": "Eric Jorgenson",
+      "category": "business"
+    },
+    {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "category": "biography"
+    },
+    {
+      "title": "Dopamine Detox",
+      "author": "Thibaut Meurisse",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "category": "psychology"
+    },
+    {
+      "title": "The Diary of a CEO",
+      "author": "Steven Bartlett",
+      "category": "business"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "literature"
+    },
+    {
+      "title": "The Courage to Be Disliked",
+      "author": "Ichiro Kishimi",
+      "category": "psychology"
+    },
+    {
+      "title": "Unlocking the Universe",
+      "author": "Stephen Hawking & Lucy Hawking",
+      "category": "physics"
+    },
+    {
+      "title": "Black Holes and Baby Universes and Other Essays",
+      "author": "Stephen Hawking",
+      "category": "physics"
+    },
+    {
+      "title": "Scattered Minds",
+      "author": "Gabor Maté",
+      "category": "psychology"
+    },
+    {
+      "title": "Enlightenment Now",
+      "author": "Steven Pinker",
+      "category": "philosophy"
+    },
+    {
+      "title": "A Brief History of Black Holes",
+      "author": "Dr. Becky Smethurst",
+      "category": "astronomy"
+    },
+    {
+      "title": "Words of My Perfect Teacher",
+      "author": "Patrul Rinpoche",
+      "category": "buddhism"
+    },
+    {
+      "title": "The Elegant Universe",
+      "author": "Brian Greene",
+      "category": "physics"
+    },
+    {
+      "title": "Return of the God Hypothesis",
+      "author": "Stephen C. Meyer",
+      "category": "science"
+    },
+    {
+      "title": "Physics and Philosophy",
+      "author": "Werner Heisenberg",
+      "category": "physics"
+    },
+    {
+      "title": "Siddhartha",
+      "author": "Hermann Hesse",
+      "category": "literature"
+    },
+    {
+      "title": "The Upanishads",
+      "author": "Swami Paramananda",
+      "category": "spirituality"
+    },
+    {
+      "title": "Untamed",
+      "author": "Glennon Doyle",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "category": "philosophy"
+    },
+    {
+      "title": "Notes from Underground",
+      "author": "Fyodor Dostoyevsky",
+      "category": "literature"
+    },
+    {
+      "title": "Beyond Good and Evil",
+      "author": "Friedrich Nietzsche",
+      "category": "philosophy"
+    },
+    {
+      "title": "Ethics",
+      "author": "Benedict Spinoza",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "category": "science"
+    },
+    {
+      "title": "The Art of Living: A Manual on Virtue, Happiness and Effectiveness",
+      "author": "Epictetus",
+      "category": "philosophy"
+    },
+    {
+      "title": "Hold On to Your Kids",
+      "author": "Gabor Maté",
+      "category": "psychology"
+    },
+    {
+      "title": "The Republic",
+      "author": "Plato",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Strategists",
+      "author": "Phillips Payson O'Brien",
+      "category": "history"
+    },
+    {
+      "title": "The Code Breaker",
+      "author": "Walter Isaacson",
+      "category": "science"
+    },
+    {
+      "title": "Maya: I Bow to Thee, You Cannot Be Overcome",
+      "author": "Prashant Acharya",
+      "category": "spirituality"
+    },
+    {
+      "title": "The Book You Wish Your Parents Had Read",
+      "author": "Philippa Perry",
+      "category": "psychology"
+    },
+    {
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "category": "business"
+    },
+    {
+      "title": "Think Again",
+      "author": "Adam Grant",
+      "category": "psychology"
+    },
+    {
+      "title": "Read People Like a Book",
+      "author": "Patrick King",
+      "category": "psychology"
+    },
+    {
+      "title": "Norwegian Wood",
+      "author": "Haruki Murakami",
+      "category": "literature"
+    },
+    {
+      "title": "The 48 Laws of Power (5-Book Set)",
+      "author": "Robert Greene",
+      "category": "personal-development"
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "category": "philosophy"
+    },
+    {
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Best of Leo Tolstoy",
+      "author": "Leo Tolstoy",
+      "category": "literature"
+    },
+    {
+      "title": "The God Delusion",
+      "author": "Richard Dawkins",
+      "category": "philosophy"
+    },
+    {
+      "title": "Karma: Why Everything You Know About It Is Wrong",
+      "author": "Acharya Prashant",
+      "category": "philosophy"
+    },
+    {
+      "title": "Great Works of Franz Kafka",
+      "author": "Franz Kafka",
+      "category": "literature"
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "category": "politics"
+    },
+    {
+      "title": "Breaking the Habit of Being Yourself Trilogy",
+      "author": "Joe Dispenza",
+      "category": "personal-development"
+    },
+    {
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini",
+      "category": "literature"
+    },
+    {
+      "title": "How Countries Go Broke",
+      "author": "Ray Dalio",
+      "category": "economics"
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "category": "personal-development"
+    },
+    {
+      "title": "Zero to One",
+      "author": "Blake Masters & Peter Thiel",
+      "category": "business"
+    },
+    {
+      "title": "Focus on What Matters",
+      "author": "Darius Foroux",
+      "category": "personal-development"
+    },
+    {
+      "title": "Sophie's World",
+      "author": "Jostein Gaarder",
+      "category": "literature"
+    },
+    {
+      "title": "The 7 Habits of Highly Effective Teens",
+      "author": "Sean Covey",
+      "category": "personal-development"
+    },
+    {
+      "title": "The Metaphysics",
+      "author": "Aristotle",
+      "category": "philosophy"
+    },
+    {
+      "title": "The Politics",
+      "author": "Aristotle",
+      "category": "politics"
+    },
+    {
+      "title": "Understanding Your Teenager",
+      "author": "Wayne Rice & David Veerman",
+      "category": "psychology"
+    },
+    {
+      "title": "I Am That",
+      "author": "Nisargadatta Maharaj",
+      "category": "spirituality"
+    },
+    {
+      "title": "On the Genealogy of Morals",
+      "author": "Friedrich Nietzsche",
+      "category": "philosophy"
+    },
+    {
+      "title": "Zen: The Art of Simple Living",
+      "author": "Shunmyo Masuno",
+      "category": "buddhism"
+    },
+    {
+      "title": "Einstein: His Life and Universe",
+      "author": "Walter Isaacson",
+      "category": "biography"
+    },
+    {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "category": "literature"
+    },
+    {
+      "title": "Journey of Souls",
+      "author": "Michael Newton",
+      "category": "spirituality"
+    },
+    {
+      "title": "Same as Ever",
+      "author": "Morgan Housel",
+      "category": "finance"
+    },
+    {
+      "title": "Julius Caesar",
+      "author": "William Shakespeare",
+      "category": "literature"
+    },
+    {
+      "title": "The Untethered Soul",
+      "author": "Michael A. Singer",
+      "category": "spirituality"
+    },
+    {
+      "title": "The Psychopathology of Everyday Life",
+      "author": "Sigmund Freud",
+      "category": "psychology"
+    },
+    {
+      "title": "11 Rules for Life",
+      "author": "Chetan Bhagat",
+      "category": "personal-development"
+    },
+    {
+      "title": "Raising Mentally Strong Kids",
+      "author": "Daniel G. Amen",
+      "category": "psychology"
+    },
+    {
+      "title": "The Fabric of Reality",
+      "author": "David Deutsch",
+      "category": "physics"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "_comment": "Curated fallback content keyed by book title and author name. The seeder uses Open Library data first and fills any remaining gaps from here. coverUrl is only used when no cover is found online.",
+  "books": {
+    "The Intelligent Investor": {
+      "summary": "Benjamin Graham's classic on value investing lays out a disciplined framework for distinguishing investment from speculation. It introduces the enduring concepts of Mr. Market and the margin of safety, teaching investors to focus on intrinsic value and protect themselves from their own emotions."
+    },
+    "Security Analysis": {
+      "summary": "The foundational text of value investing by Graham and Dodd, written in the aftermath of the 1929 crash. It provides a rigorous methodology for analysing stocks and bonds based on financial statements, earnings power, and asset values rather than market sentiment."
+    },
+    "One Up On Wall Street": {
+      "summary": "Legendary Fidelity manager Peter Lynch argues that ordinary investors can beat the professionals by paying attention to the businesses they already know. He explains how to research companies, classify them by type, and invest in what you understand."
+    },
+    "Common Stocks and Uncommon Profits": {
+      "summary": "Philip Fisher's influential guide to growth investing introduces his 'fifteen points' for identifying outstanding companies and his 'scuttlebutt' method of gathering insight. It shifts the focus from cheap statistics to the quality and management of a business held for the long term."
+    },
+    "The Warren Buffett Way": {
+      "summary": "Robert Hagstrom distils Warren Buffett's investment philosophy into clear principles, blending the value discipline of Graham with the quality focus of Fisher and Munger. It walks through the business, management, financial, and value tenets Buffett uses to choose companies."
+    },
+    "The Essays of Warren Buffett": {
+      "summary": "Edited by Lawrence Cunningham, this thematic arrangement of Buffett's shareholder letters presents his thinking on corporate governance, finance, investing, valuation, and accounting in his own words. It is widely regarded as the most authentic summary of his philosophy."
+    },
+    "The Little Book of Common Sense Investing": {
+      "summary": "Vanguard founder John C. Bogle makes the case for low-cost index funds as the surest way to capture market returns. He shows how fees, taxes, and trading quietly erode wealth, and why owning the whole market beats trying to beat it."
+    },
+    "Market Wizards": {
+      "summary": "Jack Schwager interviews some of the most successful traders of their generation across stocks, futures, and currencies. Through their stories he uncovers the shared disciplines of risk control, psychology, and conviction that separate great traders from the rest."
+    },
+    "Trading in the Zone": {
+      "summary": "Mark Douglas examines the mindset behind consistent trading, arguing that success depends less on analysis and more on managing belief, probability, and emotion. He shows how to think in probabilities and accept risk without fear or overconfidence."
+    },
+    "Reminiscences of a Stock Operator": {
+      "summary": "A thinly fictionalised account of the speculator Jesse Livermore, this enduring classic follows his triumphs and ruinous losses on Wall Street. Its timeless observations on crowd psychology, timing, and discipline still resonate with traders a century later."
+    },
+    "Best Loser Wins": {
+      "summary": "Day trader Tom Hougaard explains why elite performance comes from doing the opposite of what feels natural. Drawing on his own large-stakes trading, he focuses on mindset, handling losses, and detaching from the crowd to think independently."
+    },
+    "How to Make Money in Stocks": {
+      "summary": "William J. O'Neil presents his CAN SLIM system, a data-driven method combining earnings growth, market leadership, and chart patterns. He teaches when to buy, when to cut losses, and how to read overall market direction."
+    },
+    "How I Made $2,000,000 in the Stock Market": {
+      "summary": "Dancer Nicolas Darvas recounts how he developed his 'box theory' while touring the world, trading purely on price action and telegrams. It is a vivid first-person lesson in trend-following and rigorous stop-loss discipline."
+    },
+    "Fooled by Randomness": {
+      "summary": "Nassim Nicholas Taleb explores how chance masquerades as skill in markets and life. He warns against mistaking luck for talent, survivorship bias, and our deep tendency to find false patterns in random noise."
+    },
+    "Antifragile": {
+      "summary": "Taleb introduces the idea of antifragility — systems that gain from disorder, volatility, and stress rather than merely resisting them. He argues for building robustness and optionality into how we invest, design, and live under uncertainty."
+    },
+    "The Richest Man in Babylon": {
+      "summary": "George S. Clason teaches timeless personal-finance principles through parables set in ancient Babylon. Its simple rules — pay yourself first, live below your means, and make money work for you — remain the bedrock of building wealth."
+    },
+    "The Wealth of Nations": {
+      "summary": "Adam Smith's foundational work of modern economics describes how the division of labour, free markets, and self-interest guided by an 'invisible hand' create national prosperity. It remains the starting point for understanding market economies."
+    },
+    "The Personal MBA": {
+      "summary": "Josh Kaufman condenses the core ideas of a business education into a single accessible volume. It covers value creation, marketing, sales, finance, and human psychology, arguing you can master business fundamentals through self-study."
+    },
+    "Think and Grow Rich": {
+      "summary": "Napoleon Hill's classic on success synthesises interviews with hundreds of achievers into principles of desire, faith, persistence, and the mastermind. It frames wealth as the product of disciplined thought and definite purpose."
+    },
+    "Financial Affairs of the Common Man": {
+      "summary": "Anil Lamba demystifies personal finance for the everyday reader, explaining how to manage money, investments, taxation, and risk. Written in plain language, it aims to make financial literacy accessible to non-specialists.",
+      "publishedYear": 2019,
+      "isbn": "9780143457459",
+      "coverUrl": "https://books.google.com/books/content?id=hS2qDwAAQBAJ&printsec=frontcover&img=1&zoom=2"
+    },
+    "Timeless Wisdom on Finance": {
+      "summary": "Anil Lamba distils enduring principles of money management and financial decision-making. The book focuses on the habits and mindset that build long-term financial security rather than short-term gains.",
+      "publishedYear": 2024,
+      "isbn": "9789362130716",
+      "coverUrl": "https://titlewaves.in/wp-content/uploads/2025/07/9789362130716.webp"
+    },
+    "Thinking, Fast and Slow": {
+      "summary": "Nobel laureate Daniel Kahneman reveals the two systems that drive how we think: fast, intuitive System 1 and slow, deliberate System 2. He maps the biases and errors of judgement that shape decisions in money, risk, and everyday life."
+    },
+    "Emotional Intelligence": {
+      "summary": "Daniel Goleman argues that emotional intelligence — self-awareness, self-regulation, empathy, and social skill — matters as much as IQ for success and wellbeing. He draws on brain science to show how emotions can be understood and trained."
+    },
+    "The Myth of Normal": {
+      "summary": "Gabor Maté contends that much of what we call normal in modern society is in fact a source of chronic stress and illness. Connecting trauma, culture, and health, he makes the case for healing through authenticity and connection.",
+      "publishedYear": 2022,
+      "isbn": "9780593083888",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780593083888-L.jpg"
+    },
+    "Astrophysics for People in a Hurry": {
+      "summary": "Neil deGrasse Tyson offers a concise, witty tour of the cosmos, from the Big Bang to black holes, dark matter, and the search for life. It distils the big ideas of modern astrophysics for the curious non-specialist."
+    },
+    "The Theory of Everything": {
+      "summary": "Based on Stephen Hawking's lectures, this accessible book traces the history of cosmology and our understanding of the universe — from the nature of space and time to black holes and the quest for a unified theory."
+    },
+    "Relativity: The Special and the General Theory": {
+      "summary": "Albert Einstein's own popular explanation of relativity, written for the general reader. He builds intuition for the special and general theories, reshaping our understanding of space, time, gravity, and the structure of the universe."
+    },
+    "The Origin of Species": {
+      "summary": "Charles Darwin's landmark work sets out the theory of evolution by natural selection, supported by extensive observation. It transformed biology by explaining the diversity of life through descent with modification."
+    },
+    "Autobiography of a Yogi": {
+      "summary": "Paramahansa Yogananda's spiritual classic recounts his life, his search for enlightened masters, and his introduction of yoga and meditation to the West. It blends personal narrative with profound teachings on consciousness and the divine."
+    },
+    "Light on Yoga": {
+      "summary": "B.K.S. Iyengar's definitive manual on hatha yoga details hundreds of asanas and breathing techniques with precise instruction and photographs. It is regarded as a cornerstone text for modern yoga practice."
+    },
+    "Death: An Inside Story": {
+      "summary": "Sadhguru explores death not as a morbid subject but as an essential aspect of life. Drawing on yogic insight, he addresses what happens at and after death, and how to live and die consciously."
+    },
+    "The Power of Now": {
+      "summary": "Eckhart Tolle's guide to spiritual awakening teaches that liberation comes from living fully in the present moment. By disidentifying from the incessant mind, the reader can access deep stillness and presence beneath thought."
+    },
+    "Truth": {
+      "summary": "Drawn from Acharya Prashant's most penetrating writings, this collection of short reflections confronts the reader on identity, time, desire, ego, relationships, and the unseen forces that govern the mind. Rooted in Vedantic insight, it offers no borrowed ideals or recycled spirituality — only original seeing, challenging inherited beliefs and pointing the way toward clarity and inner freedom.",
+      "publishedYear": 2025,
+      "pages": 360,
+      "isbn": "9789369896578",
+      "coverUrl": "https://harpercollins.co.in/wp-content/uploads/2025/12/9789369896578-4-666x1024.jpg"
+    },
+    "Freedom from the Known": {
+      "summary": "J. Krishnamurti urges the reader to break free from the weight of tradition, authority, and accumulated thought. He argues that real freedom and understanding arise only through choiceless awareness in the present."
+    },
+    "The Tibetan Book of the Dead": {
+      "summary": "A classic of Tibetan Buddhism, this text guides the consciousness through the bardo states between death and rebirth. It offers teachings on impermanence, liberation, and the nature of mind."
+    },
+    "Buddha": {
+      "summary": "Karen Armstrong presents a clear and humane biography of the Buddha, setting his life and teachings within their historical context. She explores his path to enlightenment and the enduring relevance of his message."
+    },
+    "What Makes You Not a Buddhist": {
+      "summary": "Dzongsar Jamyang Khyentse cuts through cultural trappings to present the four core truths that define a Buddhist view. The book challenges popular misconceptions and clarifies what the Buddha actually taught."
+    },
+    "Cutting Through Spiritual Materialism": {
+      "summary": "Chögyam Trungpa warns against using spirituality to bolster the ego rather than transcend it. Drawing on Tibetan Buddhist teaching, he describes the subtle ways the self co-opts the spiritual path and how to see through them."
+    },
+    "The Prophet": {
+      "summary": "Kahlil Gibran's poetic masterpiece consists of the parting counsel of the prophet Almustafa on love, marriage, work, joy, sorrow, and death. Its lyrical wisdom has made it one of the most beloved books of the twentieth century."
+    },
+    "The Complete Book of Yoga": {
+      "summary": "A compilation of Swami Vivekananda's teachings on the four paths of yoga — Karma, Bhakti, Raja, and Jnana. It presents yoga as a complete philosophy of self-realisation, not merely physical practice."
+    },
+    "The Inner Journey": {
+      "summary": "Drawing on Osho's talks, this book maps the movement from the outer world toward inner awareness and meditation. It explores how silence, awareness, and love open the path to self-discovery.",
+      "publishedYear": 2000,
+      "isbn": "9780140290172",
+      "coverUrl": "https://oshoworld.com/uploads/unnamed-file-1420.jpg"
+    },
+    "Prajnaparamita in Tibetan Buddhism": {
+      "summary": "Edward Conze, the foremost Western scholar of the Perfection of Wisdom literature, examines the Prajnaparamita teachings within Tibetan Buddhism. The book explores the philosophy of emptiness and the bodhisattva path."
+    },
+    "Dalai Lama: Man, Monk, Mystic": {
+      "summary": "Mayank Chhaya's authorised biography portrays the fourteenth Dalai Lama as spiritual leader, exiled head of Tibet, and global advocate for compassion. It traces his life from childhood recognition to international statesman.",
+      "publishedYear": 2007,
+      "isbn": "9780385528542",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780385528542-L.jpg"
+    },
+    "Quantum Theory": {
+      "summary": "An introduction to the revolutionary ideas of quantum physics associated with pioneers such as Max Planck and Niels Bohr. It explores energy quanta, atomic structure, and the strange probabilistic nature of the subatomic world.",
+      "publishedYear": 2019,
+      "coverUrl": "https://covers.openlibrary.org/b/id/6262196-L.jpg"
+    },
+    "The Secret": {
+      "summary": "Rhonda Byrne popularises the 'law of attraction', the idea that positive thoughts draw positive outcomes into one's life. The book presents techniques for visualisation, gratitude, and intention to manifest health, wealth, and happiness."
+    },
+    "A Critical History of Western Philosophy": {
+      "summary": "Y. Masih's survey traces Western philosophy from the ancient Greeks through medieval scholasticism to modern and contemporary thinkers. Written as an accessible textbook, it explains major schools, arguments, and figures while helping readers see how philosophical questions evolved across centuries."
+    }
+  },
+  "authors": {
+    "Benjamin Graham": { "nationality": "American", "bio": "Benjamin Graham (1894–1976) was an American economist, professor, and investor widely regarded as the father of value investing. He taught at Columbia Business School, where Warren Buffett was among his students, and authored the seminal works Security Analysis and The Intelligent Investor." },
+    "David Dodd": { "nationality": "American", "bio": "David Dodd (1895–1988) was an American financial analyst and academic at Columbia Business School. He co-authored Security Analysis with Benjamin Graham, helping establish the discipline of value investing." },
+    "Peter Lynch": { "nationality": "American", "bio": "Peter Lynch (b. 1944) is an American investor who managed Fidelity's Magellan Fund from 1977 to 1990, averaging about 29% annual returns. He is known for the philosophy of investing in what you know." },
+    "Philip A. Fisher": { "nationality": "American", "bio": "Philip A. Fisher (1907–2004) was an American investor and pioneer of growth investing. His book Common Stocks and Uncommon Profits introduced the 'scuttlebutt' research method and influenced generations of investors, including Warren Buffett." },
+    "Robert Hagstrom": { "nationality": "American", "bio": "Robert Hagstrom (b. 1956) is an American investor and author best known for The Warren Buffett Way, which analyses Buffett's investment philosophy. He has written several books on investing and decision-making." },
+    "Lawrence Cunningham": { "nationality": "American", "bio": "Lawrence Cunningham (b. 1962) is an American legal scholar and author specialising in corporate governance and value investing. He compiled and edited The Essays of Warren Buffett." },
+    "John C. Bogle": { "nationality": "American", "bio": "John C. Bogle (1929–2019) was an American investor who founded The Vanguard Group and created the first index mutual fund for individual investors. He was a lifelong champion of low-cost, long-term investing." },
+    "Jack D. Schwager": { "nationality": "American", "bio": "Jack D. Schwager (b. 1948) is an American author and fund manager best known for the Market Wizards series of interviews with leading traders. He is a recognised authority on futures and hedge funds." },
+    "Mark Douglas": { "nationality": "American", "bio": "Mark Douglas (1948–2015) was an American trading coach and author who specialised in the psychology of trading. His books Trading in the Zone and The Disciplined Trader are widely read by traders." },
+    "Edwin Lefevre": { "nationality": "American", "bio": "Edwin Lefèvre (1871–1943) was an American journalist and writer best known for Reminiscences of a Stock Operator, a fictionalised biography of the speculator Jesse Livermore." },
+    "Tom Hougaard": { "nationality": "Danish", "bio": "Tom Hougaard is a Danish high-stakes day trader, author, and speaker. A former bank trader, he is known for his work on trading psychology and his book Best Loser Wins." },
+    "William J. O'Neil": { "nationality": "American", "bio": "William J. O'Neil (1933–2023) was an American entrepreneur, stockbroker, and writer. He founded Investor's Business Daily and developed the CAN SLIM investing strategy described in How to Make Money in Stocks." },
+    "Nicolas Darvas": { "nationality": "Hungarian-American", "bio": "Nicolas Darvas (1920–1977) was a Hungarian-born dancer who became a self-taught investor. He famously turned a modest stake into millions using his 'box theory', recounted in How I Made $2,000,000 in the Stock Market." },
+    "Nassim Nicholas Taleb": { "nationality": "Lebanese-American", "bio": "Nassim Nicholas Taleb (b. 1960) is a Lebanese-American essayist, former options trader, and scholar of risk and uncertainty. He is the author of the Incerto series, including Fooled by Randomness, The Black Swan, and Antifragile." },
+    "George S. Clason": { "nationality": "American", "bio": "George S. Clason (1874–1957) was an American author and businessman best known for The Richest Man in Babylon, a collection of parables on thrift and financial success first written as pamphlets." },
+    "Adam Smith": { "nationality": "Scottish", "bio": "Adam Smith (1723–1790) was a Scottish economist and moral philosopher regarded as the father of modern economics. His works The Wealth of Nations and The Theory of Moral Sentiments laid the foundations of classical economic thought." },
+    "Josh Kaufman": { "nationality": "American", "bio": "Josh Kaufman is an American author and business educator best known for The Personal MBA and The First 20 Hours. His work focuses on making business and skill acquisition accessible through self-study." },
+    "Napoleon Hill": { "nationality": "American", "bio": "Napoleon Hill (1883–1970) was an American self-help author whose book Think and Grow Rich became one of the best-selling personal-success books of all time. He studied the habits of wealthy achievers of his era." },
+    "Anil Lamba": { "nationality": "Indian", "bio": "Anil Lamba is an Indian financial literacy expert, corporate trainer, and author. He has conducted finance workshops worldwide and written several books making money management accessible to general readers." },
+    "Daniel Kahneman": { "nationality": "Israeli-American", "bio": "Daniel Kahneman (1934–2024) was an Israeli-American psychologist and Nobel laureate in Economic Sciences. With Amos Tversky he pioneered behavioural economics, and he summarised this work in Thinking, Fast and Slow." },
+    "Daniel Goleman": { "nationality": "American", "bio": "Daniel Goleman (b. 1946) is an American psychologist and science journalist who popularised the concept of emotional intelligence. His book on the subject reshaped views on success, leadership, and wellbeing." },
+    "Gabor Maté": { "nationality": "Hungarian-Canadian", "bio": "Gabor Maté (b. 1944) is a Hungarian-Canadian physician and author known for his work on trauma, addiction, stress, and childhood development. His books include In the Realm of Hungry Ghosts and The Myth of Normal." },
+    "Neil deGrasse Tyson": { "nationality": "American", "bio": "Neil deGrasse Tyson (b. 1958) is an American astrophysicist, author, and science communicator. He directs the Hayden Planetarium and has popularised astronomy through books, television, and his podcast." },
+    "Stephen Hawking": { "nationality": "British", "bio": "Stephen Hawking (1942–2018) was a British theoretical physicist and cosmologist renowned for his work on black holes and the origins of the universe. His best-selling books brought cosmology to a global audience." },
+    "Albert Einstein": { "nationality": "German-born", "bio": "Albert Einstein (1879–1955) was a German-born theoretical physicist who developed the theory of relativity, one of the pillars of modern physics. He received the 1921 Nobel Prize in Physics." },
+    "Charles Darwin": { "nationality": "British", "bio": "Charles Darwin (1809–1882) was an English naturalist whose theory of evolution by natural selection transformed the life sciences. His landmark work On the Origin of Species reshaped our understanding of life on Earth." },
+    "Paramahansa Yogananda": { "nationality": "Indian", "bio": "Paramahansa Yogananda (1893–1952) was an Indian monk, yogi, and guru who introduced millions to meditation and Kriya Yoga in the West. He authored the spiritual classic Autobiography of a Yogi." },
+    "B.K.S. Iyengar": { "nationality": "Indian", "bio": "B.K.S. Iyengar (1918–2014) was an Indian yoga teacher who founded Iyengar Yoga, one of the most widely practised styles in the world. His book Light on Yoga is considered a definitive guide to asana practice." },
+    "Sadhguru": { "nationality": "Indian", "bio": "Sadhguru (b. 1957), born Jaggi Vasudev, is an Indian yogi, mystic, and author. He founded the Isha Foundation and is known for his teachings on yoga, wellbeing, and conscious living." },
+    "Eckhart Tolle": { "nationality": "German-Canadian", "bio": "Eckhart Tolle (b. 1948) is a German-born spiritual teacher and author resident in Canada. He is best known for The Power of Now and A New Earth, which focus on presence and the transcendence of ego." },
+    "Acharya Prashant": { "nationality": "Indian", "bio": "Acharya Prashant (b. 1978) is an Indian spiritual teacher, author, and former civil servant. He expounds Vedanta and the Upanishads, encouraging clear thinking and freedom from conditioning." },
+    "J. Krishnamurti": { "nationality": "Indian", "bio": "Jiddu Krishnamurti (1895–1986) was an Indian philosopher and speaker who rejected all organised religion and authority. He spoke worldwide on freedom, awareness, and the nature of the mind for over six decades." },
+    "Traditional": { "nationality": "Tibetan", "bio": "The Tibetan Book of the Dead is a traditional text of Tibetan Buddhism attributed by tradition to Padmasambhava and transmitted through generations of teachers, rather than a single named author." },
+    "Karen Armstrong": { "nationality": "British", "bio": "Karen Armstrong (b. 1944) is a British author and commentator on comparative religion. A former nun, she has written widely acclaimed books on Buddhism, Islam, Christianity, and the history of faith." },
+    "Dzongsar Jamyang Khyentse": { "nationality": "Bhutanese", "bio": "Dzongsar Jamyang Khyentse (b. 1961) is a Bhutanese lama, filmmaker, and author in the Tibetan Buddhist tradition. He is known for presenting the dharma in accessible, contemporary terms." },
+    "Chögyam Trungpa": { "nationality": "Tibetan", "bio": "Chögyam Trungpa (1939–1987) was a Tibetan Buddhist meditation master who played a key role in bringing Tibetan Buddhism to the West. He founded Naropa University and authored Cutting Through Spiritual Materialism." },
+    "Kahlil Gibran": { "nationality": "Lebanese-American", "bio": "Kahlil Gibran (1883–1931) was a Lebanese-American writer, poet, and artist. His book The Prophet is among the best-selling works of poetry of all time, translated into over a hundred languages." },
+    "Swami Vivekananda": { "nationality": "Indian", "bio": "Swami Vivekananda (1863–1902) was an Indian Hindu monk and a key figure in introducing Vedanta and yoga to the Western world. A disciple of Ramakrishna, he founded the Ramakrishna Mission." },
+    "Osho": { "nationality": "Indian", "bio": "Osho (1931–1990), born Rajneesh, was an Indian mystic and spiritual teacher. He drew on many traditions to develop teachings on meditation, awareness, love, and inner transformation." },
+    "Edward Conze": { "nationality": "Anglo-German", "bio": "Edward Conze (1904–1979) was an Anglo-German scholar and translator, the foremost Western authority on the Prajnaparamita (Perfection of Wisdom) literature of Mahayana Buddhism." },
+    "Mayank Chhaya": { "nationality": "Indian", "bio": "Mayank Chhaya is an Indian-American journalist, author, and commentator. He wrote the authorised biography Dalai Lama: Man, Monk, Mystic." },
+    "Max Planck": { "nationality": "German", "bio": "Max Planck (1858–1947) was a German theoretical physicist who originated quantum theory, for which he received the 1918 Nobel Prize in Physics. His discovery of energy quanta revolutionised modern physics." },
+    "Niels Bohr": { "nationality": "Danish", "bio": "Niels Bohr (1885–1962) was a Danish physicist who made foundational contributions to understanding atomic structure and quantum theory, receiving the 1922 Nobel Prize in Physics." },
+    "Rhonda Byrne": { "nationality": "Australian", "bio": "Rhonda Byrne (b. 1951) is an Australian television writer and producer. She is the author of The Secret, a best-selling book and film on the law of attraction." },
+    "Darius Foroux": {
+      "nationality": "Dutch",
+      "bio": "Darius Foroux is a Dutch author, blogger, and entrepreneur who writes about productivity, decision-making, and building a meaningful life. His work combines practical philosophy with habits and systems for focus.",
+      "career": "Foroux began sharing ideas on personal effectiveness through his blog and newsletter, reaching a global audience of readers and professionals. He has written multiple books on productivity, wealth, and thinking clearly, including Focus on What Matters. His writing draws on Stoicism, business experience, and behavioral science.",
+      "achievements": "He has built one of the most widely read personal-development blogs in Europe, with millions of article views and a large email following. His books have been translated into several languages and are used by readers seeking practical frameworks for work and life."
+    },
+    "Thibaut Meurisse": {
+      "nationality": "Belgian",
+      "bio": "Thibaut Meurisse is a Belgian author and self-improvement writer focused on habits, discipline, and mental clarity. He is best known for concise, actionable books that help readers reset attention and build better routines.",
+      "career": "Meurisse writes practical guides on behavior change, including Dopamine Detox and related titles on focus and self-discipline. His books are designed for fast reading and immediate application, often addressing distraction, motivation, and personal systems.",
+      "achievements": "His work has reached a wide international audience through self-publishing and translations, particularly among readers looking for short, direct frameworks to improve concentration and daily habits."
+    },
+    "Y. Masih": {
+      "nationality": "Indian",
+      "bio": "Y. Masih was an Indian scholar of philosophy whose survey work A Critical History of Western Philosophy introduces readers to major thinkers from the Greek period through the modern era.",
+      "career": "Masih's scholarship spans Greek, medieval, and modern Western philosophy, presenting key figures, schools, and debates in an accessible textbook format widely used by students in India and abroad.",
+      "achievements": "A Critical History of Western Philosophy remains a standard reference for students seeking a structured overview of Western philosophical traditions from antiquity to contemporary thought."
+    },
+    "Bill Gifford": {
+      "nationality": "American",
+      "bio": "Bill Gifford is an American journalist and author who writes about science, health, and longevity. He has contributed to major magazines and co-authored books on medicine and human performance.",
+      "career": "Gifford has reported on fitness, aging, and sports science for publications including Outside and Men's Journal. He co-wrote Outlive with physician Peter Attia, translating complex medical research into narrative nonfiction for general readers.",
+      "achievements": "His journalism and books have helped popularise evidence-based conversations about healthspan, exercise, and the science of aging."
+    }
+  }
+}

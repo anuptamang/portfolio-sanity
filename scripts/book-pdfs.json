@@ -1,0 +1,715 @@
+{
+  "_comment": "Validated read links keyed by book title. Regenerate with npm run resolve-pdfs.",
+  "version": 2,
+  "resolvedAt": "2026-06-18T16:08:31.142Z",
+  "books": {
+    "1984": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/GeorgeOrwell1984_201802"
+      }
+    ],
+    "The Intelligent Investor": [
+      {
+        "label": "View on Open Library",
+        "url": "https://openlibrary.org/works/OL273184W"
+      }
+    ],
+    "Security Analysis": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/securityanalysis0004benj/securityanalysis0004benj.pdf"
+      }
+    ],
+    "One Up On Wall Street": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/beatingstreetbes00lync/beatingstreetbes00lync.pdf"
+      }
+    ],
+    "Common Stocks and Uncommon Profits": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/commonstocksunco0000fish/commonstocksunco0000fish.pdf"
+      }
+    ],
+    "The Warren Buffett Way": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/warrenbuffettway0000hags_f3x9/warrenbuffettway0000hags_f3x9.pdf"
+      }
+    ],
+    "The Essays of Warren Buffett": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/essaysofwarrenbu00buff/essaysofwarrenbu00buff.pdf"
+      }
+    ],
+    "The Little Book of Common Sense Investing": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/littlebookofcomm0000bogl/littlebookofcomm0000bogl.pdf"
+      }
+    ],
+    "Market Wizards": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-new-market-wizards-conversations-with-americas-top-traders/the-new-market-wizards-conversations-with-americas-top-traders.pdf"
+      }
+    ],
+    "Trading in the Zone": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/tradinginzonemas00doug/tradinginzonemas00doug.pdf"
+      }
+    ],
+    "Reminiscences of a Stock Operator": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/reminiscencesofs00lefe"
+      }
+    ],
+    "Best Loser Wins": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/tom-hougaard-best-loser-wins-harriman-house-ltd-2022/Tom%20Hougaard%20-%20Best%20Loser%20Wins-Harriman%20House%20Ltd%20(2022).pdf"
+      }
+    ],
+    "How I Made $2,000,000 in the Stock Market": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/howimade2000000i00nico/howimade2000000i00nico.pdf"
+      }
+    ],
+    "Fooled by Randomness": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/haengunesokchima0000tale/haengunesokchima0000tale.pdf"
+      }
+    ],
+    "Antifragile": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/arxiv-1401.2524/1401.2524.pdf"
+      }
+    ],
+    "The Richest Man in Babylon": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/32924"
+      }
+    ],
+    "The Wealth of Nations": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/3300"
+      }
+    ],
+    "The Personal MBA": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/personalmbaworld0000kauf/personalmbaworld0000kauf.pdf"
+      }
+    ],
+    "Think and Grow Rich": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/500"
+      }
+    ],
+    "Thinking, Fast and Slow": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/thinking-fast-and-slow-daniel-kahneman_202511/Thinking%2C%20Fast%20and%20Slow%20-%20Daniel%20Kahneman.pdf"
+      }
+    ],
+    "Emotional Intelligence": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/referenceguideto0000unse_f9e5/referenceguideto0000unse_f9e5.pdf"
+      }
+    ],
+    "Astrophysics for People in a Hurry": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/astrophysicsforp0000tyso/astrophysicsforp0000tyso.pdf"
+      }
+    ],
+    "The Theory of Everything": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/theoryofeverythi0000step/theoryofeverythi0000step.pdf"
+      }
+    ],
+    "Relativity: The Special and the General Theory": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/5001"
+      }
+    ],
+    "The Origin of Species": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/1228"
+      }
+    ],
+    "Autobiography of a Yogi": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/autobiographyofy00yoga"
+      }
+    ],
+    "Light on Yoga": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/IyengarBKSTheIllustratedLightOnYoga"
+      }
+    ],
+    "The Power of Now": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/the-power-of-now-a-guide-to-spiritual-enlightenment_202310"
+      }
+    ],
+    "Freedom from the Known": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/freedomfromknown0000kris_y2x1/freedomfromknown0000kris_y2x1.pdf"
+      }
+    ],
+    "Buddha": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/buddha0000arms_c9s2/buddha0000arms_c9s2.pdf"
+      }
+    ],
+    "What Makes You Not a Buddhist": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/whatmakesyounotb0000khye/whatmakesyounotb0000khye.pdf"
+      }
+    ],
+    "Cutting Through Spiritual Materialism": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/cuttingthroughsp0000trun/cuttingthroughsp0000trun.pdf"
+      }
+    ],
+    "The Prophet": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/58585"
+      }
+    ],
+    "The Complete Book of Yoga": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/completebookofyog00vive"
+      }
+    ],
+    "The Inner Journey": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-inner-journey/The%20Inner%20Journey.pdf"
+      }
+    ],
+    "Quantum Theory": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/files/33663/33663-pdf.pdf"
+      }
+    ],
+    "The Secret": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-secret-by-rhonda-byrne-english/the-secret-by-rhonda-byrne-english.pdf"
+      }
+    ],
+    "Critique of Pure Reason": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/critiqueofpurere00kant"
+      }
+    ],
+    "The Fabric of the Cosmos": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/fabricofcosmossp0000gree_i1g2/fabricofcosmossp0000gree_i1g2.pdf"
+      }
+    ],
+    "Iron in the Soul": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/bwb_O7-CDU-672/bwb_O7-CDU-672.pdf"
+      }
+    ],
+    "Waking Up": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/wakingupsearchin0000harr/wakingupsearchin0000harr.pdf"
+      }
+    ],
+    "Tao Te Ching": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/216"
+      }
+    ],
+    "So Good They Can't Ignore You": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/isbn_9781455509126/isbn_9781455509126.pdf"
+      }
+    ],
+    "Nature, Man and Woman": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/naturemanwoman0000alan/naturemanwoman0000alan.pdf"
+      }
+    ],
+    "The Most Important Thing": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/mostimportantthi0000mark/mostimportantthi0000mark.pdf"
+      }
+    ],
+    "How Much Land Does a Man Need?": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/879"
+      }
+    ],
+    "Thus Spoke Zarathustra": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/1998"
+      }
+    ],
+    "The Nicomachean Ethics": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/8438"
+      }
+    ],
+    "As a Man Thinketh": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/4507"
+      }
+    ],
+    "Psycho-Cybernetics": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/isbn_9781607966210/isbn_9781607966210.pdf"
+      }
+    ],
+    "The Greatest Show on Earth": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/greatestshowonea0000dawk_c9h8/greatestshowonea0000dawk_c9h8.pdf"
+      }
+    ],
+    "The Communist Manifesto": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/61"
+      }
+    ],
+    "The Outsider": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/the-stranger-albert-camus"
+      }
+    ],
+    "The Art of Living": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/artoflivingpeace0000nhth/artoflivingpeace0000nhth.pdf"
+      }
+    ],
+    "The God Equation": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-god-equation-theory-of-everything/The_God_Equation_Theory_of_Everything.pdf"
+      }
+    ],
+    "The Wisdom of Insecurity": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/WattsWisdomInsecurity/watts_wisdom%20insecurity.pdf"
+      }
+    ],
+    "The Way of Zen": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/isbn_9780679723011/isbn_9780679723011.pdf"
+      }
+    ],
+    "The Feynman Lectures on Physics": [
+      {
+        "label": "Read Book",
+        "url": "https://www.feynmanlectures.caltech.edu/"
+      }
+    ],
+    "Grit": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/gritpowerofpassi0000duck_f0a2/gritpowerofpassi0000duck_f0a2.pdf"
+      }
+    ],
+    "Principles for Dealing with the Changing World Order": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/youtube-xguam0TKMw8"
+      }
+    ],
+    "Principles": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/principles_ray_dalio/Principles_%20Life%20and%20Work%20(%20PDFDrive%20).pdf"
+      }
+    ],
+    "The History of the Peloponnesian War": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/7142"
+      }
+    ],
+    "The First and Last Freedom": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/firstlastfreedom0000kris/firstlastfreedom0000kris.pdf"
+      }
+    ],
+    "The Innovators": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/innovators0000isaa/innovators0000isaa.pdf"
+      }
+    ],
+    "Skin in the Game": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/skin-in-the-game-hidden-asymmetries-in-daily-life-2018-nassim-nicholas-taleb/Skin%20in%20the%20game-%20hidden%20asymmetries%20in%20daily%20life%202018%20-%20Nassim%20Nicholas%20Taleb.pdf"
+      }
+    ],
+    "Superforecasting": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/superforecasting0000tetl_j2n0/superforecasting0000tetl_j2n0.pdf"
+      }
+    ],
+    "Descartes: A Very Short Introduction": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/descartesverysho0000sore/descartesverysho0000sore.pdf"
+      }
+    ],
+    "The Book of Secrets": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/bookofsecretssci0000osho/bookofsecretssci0000osho.pdf"
+      }
+    ],
+    "How to Do the Work": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/dr-nicole-lepera-how-to-do-the-work/Dr%20Nicole%20Lepera%20-%20How%20to%20do%20the%20work%20.pdf"
+      }
+    ],
+    "Practical Vedanta": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/practicalvedanta00vive"
+      }
+    ],
+    "Totem and Taboo": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/41248"
+      }
+    ],
+    "Knowing Mandela": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/knowingmandelape0000carl/knowingmandelape0000carl.pdf"
+      }
+    ],
+    "The Black Swan": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-black-swan-the-impact-of-the-highly-improbable-nassim-nicholas-taleb/The%20black%20swan%20-%20the%20impact%20of%20the%20highly%20improbable%20-%20Nassim%20Nicholas%20Taleb.pdf"
+      }
+    ],
+    "A Brief History of Time": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/abriefhistoryoft0000hawk/abriefhistoryoft0000hawk.pdf"
+      }
+    ],
+    "The Kite Runner": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-kite-runner_202311/The%20Kite%20Runner.pdf"
+      }
+    ],
+    "Essentialism": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/isbn_9780804137386/isbn_9780804137386.pdf"
+      }
+    ],
+    "The Almanack of Naval Ravikant": [
+      {
+        "label": "Read Book",
+        "url": "https://www.navalmanack.com/almanack-of-naval-ravikant"
+      }
+    ],
+    "The Power of Habit": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/charles-duhigg.-the-power-of-habit/Charles-Duhigg.The-Power-of-Habit.pdf"
+      }
+    ],
+    "The Diary of a CEO": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/qfapmhh6txiirkkoxpkjclf7fktbsoacmuf4u2rn"
+      }
+    ],
+    "Deep Work": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/deep-work-by-carl-newport/Deep%20Work%20by%20Carl%20Newport.pdf"
+      }
+    ],
+    "The Alchemist": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-alchemist-a-graphic-novel-2010/The_Alchemist_A_Graphic_Novel_2010_Paulo_Coelho_2024_a716cec42c-1.pdf"
+      }
+    ],
+    "The Courage to Be Disliked": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-courage-to-be-disliked-print-two-page-pdf/The-Courage-to-be-Disliked.pdf"
+      }
+    ],
+    "Black Holes and Baby Universes and Other Essays": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/blackholesbabyun0000hawk_b9c2/blackholesbabyun0000hawk_b9c2.pdf"
+      }
+    ],
+    "The Elegant Universe": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/elegantuniverses0000gree_h6i2/elegantuniverses0000gree_h6i2.pdf"
+      }
+    ],
+    "Physics and Philosophy": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/physicsphilosoph00heis/physicsphilosoph00heis.pdf"
+      }
+    ],
+    "Siddhartha": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/2500"
+      }
+    ],
+    "The Upanishads": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/upanishads00pand"
+      }
+    ],
+    "The Analects": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/analectsofconfuc00conf"
+      }
+    ],
+    "Notes from Underground": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/600"
+      }
+    ],
+    "Beyond Good and Evil": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/4363"
+      }
+    ],
+    "Ethics": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/ethicsofspinoza00spin"
+      }
+    ],
+    "The Selfish Gene": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/theselfishgene1"
+      }
+    ],
+    "The Republic": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/1497"
+      }
+    ],
+    "The Innovator's Dilemma": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/isbn_2900060521997/isbn_2900060521997.pdf"
+      }
+    ],
+    "Think Again": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/think-again-the-power-of-knowing-what-you-dont-know-by-adam-grant/Think%20Again%20The%20Power%20of%20Knowing%20What%20You%20Dont%20Know%20by%20Adam%20Grant.pdf"
+      }
+    ],
+    "Norwegian Wood": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/haruki-murakami-norwegian-wood/Haruki%20Murakami%20-%20Norwegian%20Wood.pdf"
+      }
+    ],
+    "Meditations": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/2680"
+      }
+    ],
+    "The God Delusion": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/goddelusion0000dawk_j9i4/goddelusion0000dawk_j9i4.pdf"
+      }
+    ],
+    "Great Works of Franz Kafka": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/kafkacollected"
+      }
+    ],
+    "The Prince": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/1232"
+      }
+    ],
+    "A Thousand Splendid Suns": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/thousandsplendid00ho/thousandsplendid00ho.pdf"
+      }
+    ],
+    "The 7 Habits of Highly Effective People": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/7habitsofhighlye0000cove_c7h3/7habitsofhighlye0000cove_c7h3.pdf"
+      }
+    ],
+    "Zero to One": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/ZeroToOneByPeterThiel/zero%20to%20one%20by%20peter%20thiel.pdf"
+      }
+    ],
+    "Focus on What Matters": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/focus-on-what-matters-hindi/Focus%20on%20What%20Matters%20Hindi.pdf"
+      }
+    ],
+    "Sophie's World": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/sophiesworldnove0000gaar_i9u8/sophiesworldnove0000gaar_i9u8.pdf"
+      }
+    ],
+    "The 7 Habits of Highly Effective Teens": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/7habitsofhighlye0000cove_u7y2/7habitsofhighlye0000cove_u7y2.pdf"
+      }
+    ],
+    "The Metaphysics": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/2413"
+      }
+    ],
+    "The Politics": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/6762"
+      }
+    ],
+    "Understanding Your Teenager": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/understandingyou0000rice/understandingyou0000rice.pdf"
+      }
+    ],
+    "I Am That": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/i-am-that-nisargadatta-maharaj"
+      }
+    ],
+    "On the Genealogy of Morals": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/52319"
+      }
+    ],
+    "Einstein: His Life and Universe": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/einsteinhislifeu0000isaa_o4d0/einsteinhislifeu0000isaa_o4d0.pdf"
+      }
+    ],
+    "The Stranger": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/details/the-stranger-albert-camus"
+      }
+    ],
+    "Journey of Souls": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/journeyofsoulsca00newt/journeyofsoulsca00newt.pdf"
+      }
+    ],
+    "Julius Caesar": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/2263"
+      }
+    ],
+    "The Untethered Soul": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/the-untethered-soul-the-journey-beyond-yourself-michael-a.-singer/The%20Untethered%20Soul-%20The%20Journey%20Beyond%20Yourself%20-%20Michael%20A.%20Singer.pdf"
+      }
+    ],
+    "The Psychopathology of Everyday Life": [
+      {
+        "label": "Read Book",
+        "url": "https://www.gutenberg.org/ebooks/4301"
+      }
+    ],
+    "The Fabric of Reality": [
+      {
+        "label": "Read Book",
+        "url": "https://archive.org/download/TheFabricOfReality/The_Fabric_of_Reality.pdf"
+      }
+    ]
+  }
+}

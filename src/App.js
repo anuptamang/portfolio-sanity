@@ -8,6 +8,9 @@ import Home from './pages/Home'
 import Blog from './pages/Blog'
 import Project from './pages/Project'
 import SinglePost from './pages/SinglePost'
+import Library from './pages/Library'
+import SingleBook from './pages/SingleBook'
+import SingleAuthor from './pages/SingleAuthor'
 import ScrollToTop from './utils/scrollTop'
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
             <Route component={Project} path='/project' exact />
             <Route component={Blog} path='/blog' exact />
             <Route component={SinglePost} path='/blog/:slug' exact />
+            <Route component={Library} path='/library' exact />
+            <Route component={SingleAuthor} path='/library/author/:slug' exact />
+            <Route component={SingleBook} path='/library/:slug' exact />
             <Route component={Home} path='/' exact />
           </main>
           <Footer />

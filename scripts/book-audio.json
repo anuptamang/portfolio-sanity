@@ -1,0 +1,1035 @@
+{
+  "_comment": "Audio links keyed by book title. Regenerate with npm run resolve-audio.",
+  "version": 1,
+  "resolvedAt": "2026-06-18T21:35:34.159Z",
+  "books": {
+    "1984": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/1984georgeorwell19770201"
+      }
+    ],
+    "The Intelligent Investor": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/kenmeinarutoshik0000unse"
+      }
+    ],
+    "Security Analysis": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/securit_gra_1951_00_6802"
+      }
+    ],
+    "One Up On Wall Street": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/bidelinqidecheng0010lync"
+      }
+    ],
+    "Common Stocks and Uncommon Profits": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Common%20Stocks%20and%20Uncommon%20Profits%20Philip%20A.%20Fisher%20audiobook"
+      }
+    ],
+    "The Warren Buffett Way": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/shengquanzaiwogu0000hags"
+      }
+    ],
+    "The Essays of Warren Buffett": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/bafeitezhigudong0000buff"
+      }
+    ],
+    "The Little Book of Common Sense Investing": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle%20audiobook"
+      }
+    ],
+    "Market Wizards": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Market%20Wizards%20Jack%20D.%20Schwager%20audiobook"
+      }
+    ],
+    "Trading in the Zone": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Trading%20in%20the%20Zone%20Mark%20Douglas%20audiobook"
+      }
+    ],
+    "Reminiscences of a Stock Operator": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/reminiscences-of-a-stock-operator_202102"
+      }
+    ],
+    "Best Loser Wins": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Best%20Loser%20Wins%20Tom%20Hougaard%20audiobook"
+      }
+    ],
+    "How to Make Money in Stocks": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=How%20to%20Make%20Money%20in%20Stocks%20William%20J.%20O'Neil%20audiobook"
+      }
+    ],
+    "How I Made $2,000,000 in the Stock Market": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=How%20I%20Made%20%242%2C000%2C000%20in%20the%20Stock%20Market%20Nicolas%20Darvas%20audiobook"
+      }
+    ],
+    "Fooled by Randomness": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/haengunesokchima0000tale"
+      }
+    ],
+    "Antifragile": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/fancuiruocongbuq0000tale"
+      }
+    ],
+    "The Richest Man in Babylon": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/TheRichestManInBabylonUnabridged"
+      }
+    ],
+    "The Wealth of Nations": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/wealth_nations02-03_smith_se_librivox"
+      }
+    ],
+    "The Personal MBA": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Personal%20MBA%20Josh%20Kaufman%20audiobook"
+      }
+    ],
+    "Think and Grow Rich": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/audiobook-thinkandgrowrich"
+      }
+    ],
+    "Financial Affairs of the Common Man": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Financial%20Affairs%20of%20the%20Common%20Man%20Anil%20Lamba%20audiobook"
+      }
+    ],
+    "Timeless Wisdom on Finance": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Timeless%20Wisdom%20on%20Finance%20Anil%20Lamba%20audiobook"
+      }
+    ],
+    "Thinking, Fast and Slow": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/onsfeilbaredenke0000kahn"
+      }
+    ],
+    "Emotional Intelligence": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/inteligenciaemoc0000gole"
+      }
+    ],
+    "The Myth of Normal": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Myth%20of%20Normal%20Gabor%20Mat%C3%A9%20audiobook"
+      }
+    ],
+    "Astrophysics for People in a Hurry": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Astrophysics%20for%20People%20in%20a%20Hurry%20Neil%20deGrasse%20Tyson%20audiobook"
+      }
+    ],
+    "The Theory of Everything": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/teoriadeltodola0000hawk"
+      }
+    ],
+    "Relativity: The Special and the General Theory": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/relativityspecia0000albe"
+      }
+    ],
+    "The Origin of Species": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/ontheoriginofspe21153gut"
+      }
+    ],
+    "Autobiography of a Yogi": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/autobiography-of-a-yogi-by-paramhansa-yogananda/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Autobiography_of_a_Yogi"
+      }
+    ],
+    "Light on Yoga": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/lightonyoga00bksi"
+      }
+    ],
+    "Death: An Inside Story": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Death%3A%20An%20Inside%20Story%20Sadhguru%20audiobook"
+      }
+    ],
+    "The Power of Now": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/practicandoelpod0000eckh"
+      }
+    ],
+    "Truth": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Truth%20Acharya%20Prashant%20audiobook"
+      }
+    ],
+    "Freedom from the Known": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Freedom%20from%20the%20Known%20J.%20Krishnamurti%20audiobook"
+      }
+    ],
+    "The Tibetan Book of the Dead": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Tibetan%20Book%20of%20the%20Dead%20Traditional%20audiobook"
+      }
+    ],
+    "Buddha": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/buddha0000arms_c9s2"
+      }
+    ],
+    "What Makes You Not a Buddhist": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=What%20Makes%20You%20Not%20a%20Buddhist%20Dzongsar%20Jamyang%20Khyentse%20audiobook"
+      }
+    ],
+    "Cutting Through Spiritual Materialism": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/cuttingthroughsp00trun"
+      }
+    ],
+    "The Prophet": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/prophet3_1908_librivox"
+      }
+    ],
+    "The Complete Book of Yoga": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Complete%20Book%20of%20Yoga%20Swami%20Vivekananda%20audiobook"
+      }
+    ],
+    "The Inner Journey": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Inner%20Journey%20Osho%20audiobook"
+      }
+    ],
+    "Prajnaparamita in Tibetan Buddhism": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Prajnaparamita%20in%20Tibetan%20Buddhism%20Edward%20Conze%20audiobook"
+      }
+    ],
+    "Dalai Lama: Man, Monk, Mystic": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Dalai%20Lama%3A%20Man%2C%20Monk%2C%20Mystic%20Mayank%20Chhaya%20audiobook"
+      }
+    ],
+    "Quantum Theory": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/origindevelopmen00planrich"
+      }
+    ],
+    "The Secret": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/64484569"
+      }
+    ],
+    "Critique of Pure Reason": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/the-critique-of-pure-reason-by-immanuel-kant"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Critique_of_Pure_Reason"
+      }
+    ],
+    "The Fabric of the Cosmos": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/tkanjesvemirapro0000gree"
+      }
+    ],
+    "Iron in the Soul": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/ironinsoul0000jean_y5v5"
+      }
+    ],
+    "Patanjali's Yoga Sutras": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Patanjali's%20Yoga%20Sutras%20Swami%20Vivekananda%20audiobook"
+      }
+    ],
+    "Waking Up": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/fa93dxqugmc6erla4wz5v5azoqg4tn5hdodo48pf"
+      }
+    ],
+    "Tao Te Ching": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tao%20Te%20Ching%20Lao%20Tzu%20audiobook"
+      }
+    ],
+    "So Good They Can't Ignore You": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=So%20Good%20They%20Can't%20Ignore%20You%20Cal%20Newport%20audiobook"
+      }
+    ],
+    "The Intelligence Trap": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Intelligence%20Trap%20David%20Robson%20audiobook"
+      }
+    ],
+    "Thinking in Bets": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Thinking%20in%20Bets%20Annie%20Duke%20audiobook"
+      }
+    ],
+    "Nature, Man and Woman": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Nature%2C%20Man%20and%20Woman%20Alan%20Watts%20audiobook"
+      }
+    ],
+    "The Art of Spending Money": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Art%20of%20Spending%20Money%20Morgan%20Housel%20audiobook"
+      }
+    ],
+    "Mastering the Market Cycle": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mastering%20the%20Market%20Cycle%20Howard%20Marks%20audiobook"
+      }
+    ],
+    "The Most Important Thing": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Most%20Important%20Thing%20Howard%20Marks%20audiobook"
+      }
+    ],
+    "How Much Land Does a Man Need?": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/10-how-much-land-does-a-man-need-by-leo-tolstoy"
+      }
+    ],
+    "Selected Poems": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Selected%20Poems%20Rumi%20audiobook"
+      }
+    ],
+    "Thus Spoke Zarathustra": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/friedrich-nietzsche-thus-spoke-zarathustra-kauf-arch"
+      }
+    ],
+    "The Nicomachean Ethics": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/nicomachean_ethics_ge_librivox"
+      }
+    ],
+    "As a Man Thinketh": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/as-a-man-thinketh-by-james-allen/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/As_a_Man_Thinketh"
+      }
+    ],
+    "Psycho-Cybernetics": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/New_PsychoCybernetics"
+      }
+    ],
+    "The Greatest Show on Earth": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Greatest%20Show%20on%20Earth%20Richard%20Dawkins%20audiobook"
+      }
+    ],
+    "The Communist Manifesto": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/marx_engels_communistmanifesto_1_64kb"
+      }
+    ],
+    "The Outsider": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Outsider%20Albert%20Camus%20audiobook"
+      }
+    ],
+    "Rationality": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rationality%20Steven%20Pinker%20audiobook"
+      }
+    ],
+    "The Art of Living": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Art%20of%20Living%20Thich%20Nhat%20Hanh%20audiobook"
+      }
+    ],
+    "The God Equation": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20God%20Equation%20Michio%20Kaku%20audiobook"
+      }
+    ],
+    "The Wisdom of Insecurity": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/xinzhidao0000unse"
+      }
+    ],
+    "The Way of Zen": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/lebouddhismezen0000watt"
+      }
+    ],
+    "The Feynman Lectures on Physics": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Feynman%20Lectures%20on%20Physics%20Richard%20Feynman%20audiobook"
+      }
+    ],
+    "Walk Like a Girl": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Walk%20Like%20a%20Girl%20Prabal%20Gurung%20audiobook"
+      }
+    ],
+    "Grit": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Grit%20Angela%20Duckworth%20audiobook"
+      }
+    ],
+    "Principles for Dealing with the Changing World Order": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Principles%20for%20Dealing%20with%20the%20Changing%20World%20Order%20Ray%20Dalio%20audiobook"
+      }
+    ],
+    "Principles": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/BridgewaterRayDalioPrinciples"
+      }
+    ],
+    "The History of the Peloponnesian War": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/historyofthepeloponnesianwar2_2603_librivox"
+      }
+    ],
+    "The First and Last Freedom": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20First%20and%20Last%20Freedom%20J.%20Krishnamurti%20audiobook"
+      }
+    ],
+    "The Innovators": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/losinnovadoresla0000isaa"
+      }
+    ],
+    "Brilliant Moon: The Autobiography of Dilgo Khyentse": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Brilliant%20Moon%3A%20The%20Autobiography%20of%20Dilgo%20Khyentse%20Dilgo%20Khyentse%20audiobook"
+      }
+    ],
+    "Skin in the Game": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Skin%20in%20the%20Game%20Nassim%20Nicholas%20Taleb%20audiobook"
+      }
+    ],
+    "Superforecasting": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Superforecasting%20Philip%20Tetlock%20audiobook"
+      }
+    ],
+    "Descartes: A Very Short Introduction": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Descartes%3A%20A%20Very%20Short%20Introduction%20Tom%20Sorell%20audiobook"
+      }
+    ],
+    "The Book of Secrets": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Book%20of%20Secrets%20Osho%20audiobook"
+      }
+    ],
+    "Outlive": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Outlive%20Peter%20Attia%20audiobook"
+      }
+    ],
+    "How to Do the Work": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=How%20to%20Do%20the%20Work%20Nicole%20LePera%20audiobook"
+      }
+    ],
+    "How to Meet Your Self": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=How%20to%20Meet%20Your%20Self%20Nicole%20LePera%20audiobook"
+      }
+    ],
+    "Practical Vedanta": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Practical%20Vedanta%20Swami%20Vivekananda%20audiobook"
+      }
+    ],
+    "Totem and Taboo": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/totem-and-taboo-by-sigmund-freud/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Totem_and_Taboo"
+      }
+    ],
+    "A Critical History of Western Philosophy": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=A%20Critical%20History%20of%20Western%20Philosophy%20Y.%20Masih%20audiobook"
+      }
+    ],
+    "Knowing Mandela": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/knowingmandela0000carl"
+      }
+    ],
+    "The Black Swan": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Black%20Swan%20Nassim%20Nicholas%20Taleb%20audiobook"
+      }
+    ],
+    "A Brief History of Time": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/krotkahistoriacz0000hawk"
+      }
+    ],
+    "The Kite Runner": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/bdrc-W3KG128"
+      }
+    ],
+    "Why Has Nobody Told Me This Before": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Why%20Has%20Nobody%20Told%20Me%20This%20Before%20Julie%20Smith%20audiobook"
+      }
+    ],
+    "Essentialism": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Essentialism%20Greg%20McKeown%20audiobook"
+      }
+    ],
+    "The Almanack of Naval Ravikant": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Almanack%20of%20Naval%20Ravikant%20Eric%20Jorgenson%20audiobook"
+      }
+    ],
+    "Becoming": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Becoming%20Michelle%20Obama%20audiobook"
+      }
+    ],
+    "Dopamine Detox": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Dopamine%20Detox%20Thibaut%20Meurisse%20audiobook"
+      }
+    ],
+    "The Power of Habit": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/elpoderdeloshbit0000duhi"
+      }
+    ],
+    "The Diary of a CEO": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/qfapmhh6txiirkkoxpkjclf7fktbsoacmuf4u2rn"
+      }
+    ],
+    "Deep Work": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Deep%20Work%20Cal%20Newport%20audiobook"
+      }
+    ],
+    "The Alchemist": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/the-alchemist-by-paulo-coelho-in-nepali-online-audio-converter.com"
+      }
+    ],
+    "The Courage to Be Disliked": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Courage%20to%20Be%20Disliked%20Ichiro%20Kishimi%20audiobook"
+      }
+    ],
+    "Unlocking the Universe": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Unlocking%20the%20Universe%20Stephen%20Hawking%20audiobook"
+      }
+    ],
+    "Black Holes and Baby Universes and Other Essays": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/einsteinstraumex0000hawk"
+      }
+    ],
+    "Scattered Minds": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Scattered%20Minds%20Gabor%20Mat%C3%A9%20audiobook"
+      }
+    ],
+    "Enlightenment Now": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Enlightenment%20Now%20Steven%20Pinker%20audiobook"
+      }
+    ],
+    "A Brief History of Black Holes": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=A%20Brief%20History%20of%20Black%20Holes%20Dr.%20Becky%20Smethurst%20audiobook"
+      }
+    ],
+    "Words of My Perfect Teacher": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Words%20of%20My%20Perfect%20Teacher%20Patrul%20Rinpoche%20audiobook"
+      }
+    ],
+    "The Elegant Universe": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Elegant%20Universe%20Brian%20Greene%20audiobook"
+      }
+    ],
+    "Return of the God Hypothesis": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Return%20of%20the%20God%20Hypothesis%20Stephen%20C.%20Meyer%20audiobook"
+      }
+    ],
+    "Physics and Philosophy": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/physicsphilosoph00heis"
+      }
+    ],
+    "Siddhartha": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/siddhartha-by-hermann-hesse/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Siddhartha_(novel)"
+      }
+    ],
+    "The Upanishads": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Upanishads%20Swami%20Paramananda%20audiobook"
+      }
+    ],
+    "Untamed": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Untamed%20Glennon%20Doyle%20audiobook"
+      }
+    ],
+    "The Analects": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/analects_confucius_1303_librivox"
+      }
+    ],
+    "Notes from Underground": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/12.-part-ii-chapter-i"
+      }
+    ],
+    "Beyond Good and Evil": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/beyond-good-and-evil-by-friedrich-nietzsche/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Beyond_Good_and_Evil"
+      }
+    ],
+    "Ethics": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/the-ethics-by-spinoza-benedict-de/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Ethics_(Spinoza)"
+      }
+    ],
+    "The Selfish Gene": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Selfish%20Gene%20Richard%20Dawkins%20audiobook"
+      }
+    ],
+    "The Art of Living: A Manual on Virtue, Happiness and Effectiveness": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Art%20of%20Living%3A%20A%20Manual%20on%20Virtue%2C%20Happiness%20and%20Effectiveness%20Epictetus%20audiobook"
+      }
+    ],
+    "Hold On to Your Kids": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hold%20On%20to%20Your%20Kids%20Gabor%20Mat%C3%A9%20audiobook"
+      }
+    ],
+    "The Republic": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/the-republic-of-plato-book-10_202209"
+      }
+    ],
+    "The Strategists": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Strategists%20Phillips%20Payson%20O'Brien%20audiobook"
+      }
+    ],
+    "The Code Breaker": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Code%20Breaker%20Walter%20Isaacson%20audiobook"
+      }
+    ],
+    "Maya: I Bow to Thee, You Cannot Be Overcome": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Maya%3A%20I%20Bow%20to%20Thee%2C%20You%20Cannot%20Be%20Overcome%20Prashant%20Acharya%20audiobook"
+      }
+    ],
+    "The Book You Wish Your Parents Had Read": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Book%20You%20Wish%20Your%20Parents%20Had%20Read%20Philippa%20Perry%20audiobook"
+      }
+    ],
+    "The Innovator's Dilemma": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Innovator's%20Dilemma%20Clayton%20M.%20Christensen%20audiobook"
+      }
+    ],
+    "Think Again": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Think%20Again%20Adam%20Grant%20audiobook"
+      }
+    ],
+    "Read People Like a Book": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Read%20People%20Like%20a%20Book%20Patrick%20King%20audiobook"
+      }
+    ],
+    "Norwegian Wood": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Norwegian%20Wood%20Haruki%20Murakami%20audiobook"
+      }
+    ],
+    "The 48 Laws of Power (5-Book Set)": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%2048%20Laws%20of%20Power%20(5-Book%20Set)%20Robert%20Greene%20audiobook"
+      }
+    ],
+    "Meditations": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/the-meditations-of-marcus-aurelius/"
+      },
+      {
+        "label": "Listen (Community)",
+        "url": "https://en.wikipedia.org/wiki/Meditations"
+      }
+    ],
+    "Can't Hurt Me": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Can't%20Hurt%20Me%20David%20Goggins%20audiobook"
+      }
+    ],
+    "The Best of Leo Tolstoy": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Best%20of%20Leo%20Tolstoy%20Leo%20Tolstoy%20audiobook"
+      }
+    ],
+    "The God Delusion": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/the-god-delusion-audiobook"
+      }
+    ],
+    "Karma: Why Everything You Know About It Is Wrong": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Karma%3A%20Why%20Everything%20You%20Know%20About%20It%20Is%20Wrong%20Acharya%20Prashant%20audiobook"
+      }
+    ],
+    "Great Works of Franz Kafka": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/greatworksoffran0000fran"
+      }
+    ],
+    "The Prince": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/Mr.IanRichardsonReadsMachiavellisThePrinceDisc312"
+      }
+    ],
+    "Breaking the Habit of Being Yourself Trilogy": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Breaking%20the%20Habit%20of%20Being%20Yourself%20Trilogy%20Joe%20Dispenza%20audiobook"
+      }
+    ],
+    "A Thousand Splendid Suns": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/millesplendidiso0000khal"
+      }
+    ],
+    "How Countries Go Broke": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=How%20Countries%20Go%20Broke%20Ray%20Dalio%20audiobook"
+      }
+    ],
+    "The 7 Habits of Highly Effective People": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/the-7-habits"
+      }
+    ],
+    "Zero to One": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/cong0dao1zerotoo0000thie"
+      }
+    ],
+    "Focus on What Matters": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Focus%20on%20What%20Matters%20Darius%20Foroux%20audiobook"
+      }
+    ],
+    "Sophie's World": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sophie's%20World%20Jostein%20Gaarder%20audiobook"
+      }
+    ],
+    "The 7 Habits of Highly Effective Teens": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/7habitsofhighlye0000cove_r0v1"
+      }
+    ],
+    "The Metaphysics": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/aristotleonhisp00arisgoog"
+      }
+    ],
+    "The Politics": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/politicseconomic00arisrich"
+      }
+    ],
+    "Understanding Your Teenager": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/understandingyou0000rice"
+      }
+    ],
+    "I Am That": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/iamthattalkswith0000nisa"
+      }
+    ],
+    "On the Genealogy of Morals": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/on-the-genealogy-of-morals-a-polemic-67_202409"
+      }
+    ],
+    "Zen: The Art of Simple Living": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Zen%3A%20The%20Art%20of%20Simple%20Living%20Shunmyo%20Masuno%20audiobook"
+      }
+    ],
+    "Einstein: His Life and Universe": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Einstein%3A%20His%20Life%20and%20Universe%20Walter%20Isaacson%20audiobook"
+      }
+    ],
+    "The Stranger": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/the-stranger-camus"
+      }
+    ],
+    "Journey of Souls": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Journey%20of%20Souls%20Michael%20Newton%20audiobook"
+      }
+    ],
+    "Same as Ever": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Same%20as%20Ever%20Morgan%20Housel%20audiobook"
+      }
+    ],
+    "Julius Caesar": [
+      {
+        "label": "Listen on LibriVox",
+        "url": "https://librivox.org/julius-caesar-by-william-shakespeare/"
+      }
+    ],
+    "The Untethered Soul": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Untethered%20Soul%20Michael%20A.%20Singer%20audiobook"
+      }
+    ],
+    "The Psychopathology of Everyday Life": [
+      {
+        "label": "Listen on Internet Archive",
+        "url": "https://archive.org/details/psychopathologyo00freu"
+      }
+    ],
+    "11 Rules for Life": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=11%20Rules%20for%20Life%20Chetan%20Bhagat%20audiobook"
+      }
+    ],
+    "Raising Mentally Strong Kids": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=Raising%20Mentally%20Strong%20Kids%20Daniel%20G.%20Amen%20audiobook"
+      }
+    ],
+    "The Fabric of Reality": [
+      {
+        "label": "Search on YouTube",
+        "url": "https://www.youtube.com/results?search_query=The%20Fabric%20of%20Reality%20David%20Deutsch%20audiobook"
+      }
+    ]
+  }
+}

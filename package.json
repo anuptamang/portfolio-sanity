@@ -12,7 +12,7 @@
     "bootstrap": "^4.6.0",
     "logrocket": "^1.2.1",
     "moment": "^2.29.1",
-    "node-sass": "^6.0.0",
+    "sass": "^1.69.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
@@ -26,10 +26,19 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "seed": "node scripts/seed.js",
+    "resolve-pdfs": "node scripts/resolve-pdfs.js",
+    "seed-pdfs": "node scripts/seed-pdfs.js",
+    "clear-pdfs": "node scripts/clear-pdfs.js",
+    "resolve-audio": "node scripts/resolve-audio.js",
+    "seed-audio": "node scripts/seed-audio.js",
+    "seed-summaries": "node scripts/seed-summaries.js",
+    "resolve-authors": "node scripts/resolve-authors.js",
+    "seed-authors": "node scripts/seed-authors.js"
   },
   "eslintConfig": {
     "extends": [
